@@ -140,7 +140,7 @@ class Settings(BaseSettings):
     LOG_RETENTION_DAYS: int = 30
 
     # ----- Admin -----
-    SUPERADMIN_EMAIL: str = "admin@company.example"
+    SUPERADMIN_EMAIL: str = "nitinreddy520@gmail.com"
 
     @field_validator("CORS_ORIGINS", mode="before")
     @classmethod

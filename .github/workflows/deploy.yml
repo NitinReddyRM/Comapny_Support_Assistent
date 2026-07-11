@@ -21,33 +21,26 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key:      ${{ secrets.EC2_SSH_KEY }}
           script: |
-            echo "=============================="
-            echo " Auto Deploy Started..."
-            echo "=============================="
+            # Fix permissions first
+            sudo chown -R ubuntu:ubuntu ~/Comapny_Support_Assistent
 
-            cd ~/Policy-AI-Assistent-ChatBot
+            cd ~/Comapny_Support_Assistent
 
-            echo "[1/5] Pulling latest code..."
-            git pull origin main
+            git fetch origin
+            git reset --hard origin/main
 
-            echo "[2/5] Stopping old container..."
             docker stop policy-ai || true
             docker rm   policy-ai || true
+            docker rmi  policy-ai-app || true
 
-            echo "[3/5] Building new Docker image..."
-            docker build -t policy-ai-app .
+            docker build --no-cache -t policy-ai-app .
 
-            echo "[4/5] Starting new container..."
             docker run -d \
               --name policy-ai \
               --restart always \
               -p 8000:8000 \
               policy-ai-app
 
-            echo "[5/5] Verifying..."
             sleep 3
             docker ps | grep policy-ai
-
-            echo "=============================="
-            echo " Deployment Complete!"
-            echo "=============================="
+            echo "Deployed successfully!"
