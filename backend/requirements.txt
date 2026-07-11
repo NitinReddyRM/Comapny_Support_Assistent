@@ -24,7 +24,6 @@ python-docx
 openpyxl
 python-pptx
 pandas
-numpy
 faiss-cpu
 loguru
 prometheus-client
