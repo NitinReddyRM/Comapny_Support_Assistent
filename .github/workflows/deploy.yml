@@ -1,0 +1,53 @@
+name: Deploy to EC2
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy to EC2 via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host:     ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key:      ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            echo "=============================="
+            echo " Auto Deploy Started..."
+            echo "=============================="
+
+            cd ~/Policy-AI-Assistent-ChatBot
+
+            echo "[1/5] Pulling latest code..."
+            git pull origin main
+
+            echo "[2/5] Stopping old container..."
+            docker stop policy-ai || true
+            docker rm   policy-ai || true
+
+            echo "[3/5] Building new Docker image..."
+            docker build -t policy-ai-app .
+
+            echo "[4/5] Starting new container..."
+            docker run -d \
+              --name policy-ai \
+              --restart always \
+              -p 8000:8000 \
+              policy-ai-app
+
+            echo "[5/5] Verifying..."
+            sleep 3
+            docker ps | grep policy-ai
+
+            echo "=============================="
+            echo " Deployment Complete!"
+            echo "=============================="
