@@ -25,7 +25,6 @@ openpyxl
 python-pptx
 pandas
 numpy
-# sentence-transformers
 faiss-cpu
 loguru
 prometheus-client
@@ -35,3 +34,5 @@ aiofiles
 O365
 bleach
 flashrank
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
