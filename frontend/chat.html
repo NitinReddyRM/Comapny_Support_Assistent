@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omni AI Assistant</title>
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/chat.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.10.0/styles/github-dark.min.css" />
+</head>
+<body class="chat-body">
+  <aside class="sidebar" id="sidebar">
+
+    <!-- Brand + department picker -->
+    <div class="sidebar-head">
+      <div class="brand small">
+        <div class="brand-mark">Om</div>
+        <div class="brand-info">
+          <div class="brand-name">Omni AI</div>
+          <!-- Department dropdown trigger; populated by chat.js -->
+          <button class="dept-switch" id="deptSwitch" aria-haspopup="listbox" aria-expanded="false">
+            <span id="deptLabel">—</span>
+            <span class="dept-chevron" id="deptChevron"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recent conversations -->
+    <div class="sidebar-section">
+      <div class="section-head">
+        <span class="section-label">Recent</span>
+        <!-- + moved here from the brand row, styled prominently -->
+        <button class="new-chat-btn" id="newChatBtn" title="Start a new conversation">
+          <span class="new-chat-icon"></span>
+          <span>New</span>
+        </button>
+      </div>
+      <ul class="session-list" id="sessionList"></ul>
+    </div>
+
+    <!-- Account + theme toggle -->
+    <div class="sidebar-foot">
+      <div class="user-pill" id="userPill" title="Account">
+        <span class="avatar" id="avatar">U</span>
+        <div class="user-meta">
+          <div class="user-name" id="userName">…</div>
+          <div class="user-mail muted" id="userMail">…</div>
+        </div>
+      </div>
+
+      <!-- Real toggle switch (sun ↔ moon) -->
+      <label class="theme-switch" title="Toggle dark / light mode">
+        <input type="checkbox" id="themeSwitchInput" />
+        <span class="theme-switch-track">
+          <span class="theme-switch-icon left"  id="themeIconSun"></span>
+          <span class="theme-switch-icon right" id="themeIconMoon"></span>
+          <span class="theme-switch-thumb"></span>
+        </span>
+        <span class="theme-switch-label" id="themeLabel">Dark</span>
+      </label>
+
+      <button class="ghost sign-out" id="logoutBtn"></button>
+    </div>
+  </aside>
+
+  <main class="chat-main">
+    <header class="chat-head">
+      <button class="ghost icon-btn" id="sidebarToggle" title="Toggle sidebar" aria-label="Toggle sidebar"></button>
+      <div class="chat-title" id="chatTitle">New conversation</div>
+      <!-- LLM model picker — shown to all users who can switch models.
+           Populated from /chat/models by chat.js. -->
+      <div class="model-picker hidden" id="modelPicker">
+        <span class="model-label">Model</span>
+        <select id="modelSelect" title="Select the AI model for your chats"></select>
+      </div>
+      <!-- Metadata filters — shown only when the user's KB docs carry
+           metadata. Built dynamically from /chat/facets by chat.js. -->
+      <div class="filters-wrap hidden" id="filtersWrap">
+        <button class="filters-btn" id="filtersBtn"
+                aria-haspopup="dialog" aria-expanded="false" title="Filter sources by metadata">
+          <span class="filters-btn-icon" id="filtersIcon"></span>
+          <span class="filters-btn-label">Filters</span>
+          <span class="filters-count" id="filtersCount"></span>
+        </button>
+        <div class="filters-pop" id="filtersPop" role="dialog" aria-label="Source filters">
+          <div class="filters-pop-head">
+            <span class="filters-pop-title">Filter sources</span>
+            <span class="filters-pop-hint muted">Match documents tagged with…</span>
+          </div>
+
+          <!-- Combinator: how multiple rules are joined -->
+          <div class="filters-combinator" role="group" aria-label="Match mode">
+            <span class="filters-combinator-label muted">Match</span>
+            <div class="filters-segmented" id="filtersOpToggle" role="radiogroup">
+              <button type="button" class="seg-btn active" data-op="AND" role="radio" aria-checked="true">All (AND)</button>
+              <button type="button" class="seg-btn" data-op="OR" role="radio" aria-checked="false">Any (OR)</button>
+            </div>
+            <span class="filters-combinator-hint muted" id="filtersOpHint">Every rule must match</span>
+          </div>
+
+          <!-- Rules list (one row per metadata key) -->
+          <div class="filters-rules" id="filtersRules"></div>
+
+          <button type="button" class="ghost filters-add-rule" id="filtersAddRule">
+            <span class="filters-add-icon">+</span>
+            <span>Add filter rule</span>
+          </button>
+
+          <div class="filters-pop-actions">
+            <button class="ghost" id="filtersClear" type="button">Clear all</button>
+            <button class="primary" id="filtersApply" type="button">Apply</button>
+          </div>
+        </div>
+      </div>
+      <div class="head-actions">
+        <!-- TOKEN USAGE meter — hover/click to reveal details -->
+        <div class="usage-wrap" id="usageWrap" tabindex="0">
+          <button class="ghost icon-btn usage-trigger" id="usageBtn"
+                  title="Token usage"
+                  aria-haspopup="dialog"
+                  aria-expanded="false">
+            <span class="usage-icon" id="usageIcon"></span>
+            <span class="usage-bar">
+              <span class="usage-bar-fill" id="usageBarFill"></span>
+            </span>
+            <span class="usage-count" id="usageCount">0</span>
+          </button>
+          <div class="usage-pop" id="usagePop" role="dialog" aria-label="Token usage">
+            <div class="usage-pop-head">
+              <span class="usage-pop-title">Token usage</span>
+              <span class="usage-pop-sub" id="usageSub">this session</span>
+            </div>
+            <div class="usage-pop-row">
+              <span class="muted">Used</span>
+              <strong id="usageUsed">0</strong>
+            </div>
+            <div class="usage-pop-row">
+              <span class="muted">Remaining</span>
+              <strong id="usageRemaining">0</strong>
+            </div>
+            <div class="usage-pop-row">
+              <span class="muted">Quota</span>
+              <strong id="usageQuota">0</strong>
+            </div>
+            <div class="usage-pop-split">
+              <div><span class="muted">Input</span> <strong id="usageInput">0</strong></div>
+              <div><span class="muted">Output</span> <strong id="usageOutput">0</strong></div>
+            </div>
+            <div class="usage-pop-foot muted" id="usageFootUser"></div>
+          </div>
+        </div>
+
+        <a href="/admin.html" class="ghost icon-btn admin-shortcut hidden" id="adminLink" title="Admin portal" aria-label="Admin portal"></a>
+        <button class="ghost icon-btn" id="exportBtn" title="Export conversation" aria-label="Export"></button>
+      </div>
+    </header>
+
+    <!-- Scroll area: messages + (composer + footer) live together inside the body -->
+    <section class="chat-scroll" id="chatScroll">
+      <section class="messages" id="messages">
+        <div class="empty-state">
+          <h1>What would you like to know?</h1>
+          <p>Ask anything from your department's knowledge base — answers come with citations and confidence scores.</p>
+          <div class="suggest-grid" id="suggestGrid"></div>
+        </div>
+      </section>
+
+      <!-- Composer moved out of <footer>; lives in the body, just under messages -->
+      <div class="composer in-body" id="composer">
+        <div class="composer-wrap">
+          <div class="autocomplete" id="autocomplete"></div>
+          <textarea id="input" rows="1" placeholder="Ask a question…" autocomplete="off"></textarea>
+          <button class="send" id="sendBtn" title="Send" aria-label="Send"></button>
+        </div>
+        <div class="composer-foot">
+          AI responses can make mistakes — verify important information.
+          Press <kbd>Shift</kbd>+<kbd>Enter</kbd> for a new line.
+        </div>
+      </div>
+
+      <!-- Help block at the very bottom of the body -->
+      <div class="help-cta" id="helpCta">
+        <div class="help-cta-icon" id="helpCtaIcon"></div>
+        <div class="help-cta-body">
+          <div class="help-cta-title">Need help?</div>
+          <p class="muted">
+            Tap the <em>Helpful</em> or <em>Not helpful</em> buttons below any
+            answer to give feedback. Selecting <em>Not helpful</em> opens a
+            support ticket so the
+            <strong id="helpDept">your department</strong> team can follow up.
+          </p>
+        </div>
+        <button class="ghost" id="helpBtn">Contact support</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@14.1.3/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.10.0/highlight.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.7/dist/purify.min.js"></script>
+  <script src="/js/icons.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/theme.js"></script>
+  <script src="/js/chat.js"></script>
+</body>
+</html>

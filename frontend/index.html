@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omni AI Assistant — Sign in</title>
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/auth.css" />
+</head>
+<body class="auth-body">
+  <button class="theme-toggle" id="themeToggle" title="Toggle theme" aria-label="Toggle theme"></button>
+
+  <main class="auth-shell">
+    <section class="auth-card">
+      <div class="brand">
+        <div class="brand-mark">Om</div>
+        <div>
+          <h1 class="brand-name">Omni AI</h1>
+          <p class="brand-tag">Policy Assistant</p>
+        </div>
+      </div>
+
+      <!-- STEP 1: email -->
+      <div class="step" id="step-email">
+        <h2>Sign in</h2>
+        <p class="muted">We'll send a one-time code to your work email.</p>
+        <label class="field">
+          <span>Work email</span>
+          <!-- <input type="email" id="email" autocomplete="email" placeholder="you@company.com" /> -->
+          <input type="email" id="email" placeholder="you@company.com" />
+        </label>
+        <button class="primary" id="btnSendOtp">Send code</button>
+        
+      </div>
+
+      <!-- STEP 2: otp -->
+      <div class="step hidden" id="step-otp">
+        <h2>Enter verification code</h2>
+        <p class="muted">Sent to <span id="emailEcho"></span></p>
+        <label class="field">
+          <span>6-digit code (Enter Any 6 charectors)</span>
+          <input type="text" id="otp" inputmode="numeric" maxlength="6" placeholder="123456" />
+        </label>
+        <button class="primary" id="btnVerifyOtp">Verify</button>
+        <button class="link" id="btnBackEmail">← Use a different email</button>
+      </div>
+
+      <!-- STEP 3: department -->
+      <div class="step hidden" id="step-dept">
+        <h2 id="deptStepTitle">Choose your department</h2>
+        <p class="muted" id="deptStepHelp">The assistant will only answer from that department's knowledge base.</p>
+
+        <!-- Filter bar — visible for both single- and multi-select picks. -->
+        <div class="dept-toolbar">
+          <label class="dept-search">
+            <span class="dept-search-icon" aria-hidden="true"></span>
+            <input id="deptSearch" type="search" placeholder="Search departments…" autocomplete="off" />
+          </label>
+        </div>
+
+        <div id="deptList" class="dept-list"></div>
+        <p class="muted dept-empty hidden" id="deptEmpty">No departments match your search.</p>
+
+        <div class="dept-back-row">
+          <button class="link" id="btnBackToLogin" type="button">← Sign in as a different user</button>
+        </div>
+        <!-- Multi-select footer; only shown for CrossAdmin / SuperAdmin. -->
+        <div class="dept-multi-foot hidden" id="deptMultiFoot">
+          <div class="muted">
+            <span id="deptSelectedCount">0</span> selected
+          </div>
+          <div class="row">
+            <button class="ghost" id="btnSelectAllDepts" type="button">Select all</button>
+            <button class="primary" id="btnConfirmDepts" disabled>Continue</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="auth-error" id="authError"></div>
+    </section>
+
+    <footer class="auth-foot">
+      <span>© Omni AI · v1.0</span>
+      <span class="muted">Secure · RBAC</span>
+    </footer>
+  </main>
+
+  <script src="/js/icons.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/theme.js"></script>
+  <script src="/js/auth.js"></script>
+</body>
+</html>

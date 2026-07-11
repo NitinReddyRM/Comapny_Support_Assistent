@@ -1,0 +1,117 @@
+2026-06-08 06:52:07,881 | INFO     | company-ai.admin | pid=66720 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/apac.amazon.nova-lite-v1:0' by='nitin.r@omnicard.in'
+2026-06-08 06:59:39,701 | INFO     | company-ai.admin | pid=66720 | S3 delete OK | bucket='bedrock-eroute' key='legal/Adevinta-Legal-Compliance-Policy.pdf'
+2026-06-08 06:59:39,710 | INFO     | company-ai.admin | pid=66720 | external kb file deleted | key='legal/Adevinta-Legal-Compliance-Policy.pdf' by='nitin.r@omnicard.in' s3_removed=True
+2026-06-08 07:00:17,701 | INFO     | company-ai.admin | pid=66720 | S3 upload OK | bucket='bedrock-eroute' key='legal/Adevinta-Legal-Compliance-Policy.pdf' bytes=68456 dept='legal' meta_keys=['country', 'state']
+2026-06-08 07:00:24,582 | INFO     | company-ai.admin | pid=66720 | S3 delete OK | bucket='bedrock-eroute' key='legal/Policy_Legal_Compliance_Framework.pdf'
+2026-06-08 07:00:24,591 | INFO     | company-ai.admin | pid=66720 | external kb file deleted | key='legal/Policy_Legal_Compliance_Framework.pdf' by='nitin.r@omnicard.in' s3_removed=True
+2026-06-08 07:01:04,215 | INFO     | company-ai.admin | pid=66720 | S3 upload OK | bucket='bedrock-eroute' key='legal/Policy_Legal_Compliance_Framework.pdf' bytes=52970 dept='legal' meta_keys=['country', 'state']
+2026-06-08 07:01:31,628 | INFO     | company-ai.admin | pid=66720 | S3 delete OK | bucket='bedrock-eroute' key='procurement/aiib-corporate-procurement-policy.pdf'
+2026-06-08 07:01:31,637 | INFO     | company-ai.admin | pid=66720 | external kb file deleted | key='procurement/aiib-corporate-procurement-policy.pdf' by='nitin.r@omnicard.in' s3_removed=True
+2026-06-08 07:02:09,751 | INFO     | company-ai.admin | pid=66720 | S3 upload OK | bucket='bedrock-eroute' key='legal/aiib-corporate-procurement-policy.pdf' bytes=525103 dept='legal' meta_keys=['country', 'state', 'city']
+2026-06-08 07:02:18,606 | INFO     | company-ai.admin | pid=66720 | S3 delete OK | bucket='bedrock-eroute' key='legal/aiib-corporate-procurement-policy.pdf'
+2026-06-08 07:02:18,617 | INFO     | company-ai.admin | pid=66720 | kb doc deleted | s3_key='legal/aiib-corporate-procurement-policy.pdf' by='nitin.r@omnicard.in' s3_removed=True
+2026-06-08 07:02:39,648 | INFO     | company-ai.admin | pid=66720 | S3 upload OK | bucket='bedrock-eroute' key='procurement/aiib-corporate-procurement-policy.pdf' bytes=525103 dept='procurement' meta_keys=['country', 'state', 'city']
+2026-06-08 07:03:16,375 | INFO     | company-ai.admin | pid=66720 | S3 delete OK | bucket='bedrock-eroute' key='procurement/world-bank-Corporate-Procurement-Policy-Summary.pdf'
+2026-06-08 07:03:16,383 | INFO     | company-ai.admin | pid=66720 | external kb file deleted | key='procurement/world-bank-Corporate-Procurement-Policy-Summary.pdf' by='nitin.r@omnicard.in' s3_removed=True
+2026-06-08 07:03:38,291 | INFO     | company-ai.admin | pid=66720 | S3 upload OK | bucket='bedrock-eroute' key='procurement/world-bank-Corporate-Procurement-Policy-Summary.pdf' bytes=192295 dept='procurement' meta_keys=['country', 'state', 'city']
+2026-06-08 07:04:48,748 | INFO     | company-ai.admin | pid=66720 | S3 delete OK | bucket='bedrock-eroute' key='security/1SecurityPolicy version 1.0.pdf'
+2026-06-08 07:04:48,757 | INFO     | company-ai.admin | pid=66720 | external kb file deleted | key='security/1SecurityPolicy version 1.0.pdf' by='nitin.r@omnicard.in' s3_removed=True
+2026-06-08 07:06:04,327 | INFO     | company-ai.admin | pid=66720 | S3 upload OK | bucket='bedrock-eroute' key='security/1SecurityPolicy version 1.0.pdf' bytes=1575699 dept='security' meta_keys=['country']
+2026-06-08 07:06:13,810 | INFO     | company-ai.admin | pid=66720 | KB ingestion started | job_id='BKMFRYDRPW'
+2026-06-08 07:06:13,834 | INFO     | company-ai.admin | pid=66720 | manual KB resync requested | by='nitin.r@omnicard.in' job_id='BKMFRYDRPW'
+2026-06-09 05:02:35,818 | INFO     | company-ai.admin | pid=69411 | S3 delete OK | bucket='bedrock-eroute' key='finance/CORPORATE_FINANCE.pdf'
+2026-06-09 05:02:35,830 | INFO     | company-ai.admin | pid=69411 | external kb file deleted | key='finance/CORPORATE_FINANCE.pdf' by='nitin.r@omnicard.in' s3_removed=True
+2026-06-09 05:04:14,637 | INFO     | company-ai.admin | pid=69411 | S3 upload OK | bucket='bedrock-eroute' key='finance/CORPORATE_FINANCE.pdf' bytes=11929642 dept='finance' meta_keys=['region', 'confidential']
+2026-06-09 05:04:24,902 | INFO     | company-ai.admin | pid=69411 | KB ingestion started | job_id='69M2P7OY2J'
+2026-06-09 05:04:24,927 | INFO     | company-ai.admin | pid=69411 | manual KB resync requested | by='nitin.r@omnicard.in' job_id='69M2P7OY2J'
+2026-06-09 05:11:36,696 | INFO     | company-ai.admin | pid=69411 | S3 delete OK | bucket='bedrock-eroute' key='finance/CORPORATE_FINANCE.pdf'
+2026-06-09 05:11:36,707 | INFO     | company-ai.admin | pid=69411 | kb doc deleted | s3_key='finance/CORPORATE_FINANCE.pdf' by='nitin.r@omnicard.in' s3_removed=True
+2026-06-09 05:13:30,073 | INFO     | company-ai.admin | pid=69411 | S3 upload OK | bucket='bedrock-eroute' key='finance/CORPORATE_FINANCE.pdf' bytes=11929642 dept='finance' meta_keys=['region', 'confidential']
+2026-06-09 05:42:39,349 | INFO     | company-ai.admin | pid=69721 | S3 delete OK | bucket='bedrock-eroute' key='finance/CORPORATE_FINANCE.pdf'
+2026-06-09 05:42:39,365 | INFO     | company-ai.admin | pid=69721 | kb doc deleted | s3_key='finance/CORPORATE_FINANCE.pdf' by='nitin.r@omnicard.in' s3_removed=True
+2026-06-09 05:43:54,951 | INFO     | company-ai.admin | pid=69721 | S3 upload OK | bucket='bedrock-eroute' key='finance/CORPORATE_FINANCE.pdf' bytes=11929642 dept='finance' meta_keys=['country', 'continent']
+2026-06-09 05:44:02,262 | INFO     | company-ai.admin | pid=69721 | KB ingestion started | job_id='BMQTNTSXIR'
+2026-06-09 05:44:02,287 | INFO     | company-ai.admin | pid=69721 | manual KB resync requested | by='nitin.r@omnicard.in' job_id='BMQTNTSXIR'
+2026-06-09 08:37:53,978 | INFO     | company-ai.admin | pid=77041 | privileged model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/meta.llama3-8b-instruct-v1:0' by='nitin.r@omnicard.in'
+2026-06-09 08:46:44,828 | INFO     | company-ai.admin | pid=77041 | user deactivated | email='yugal@omnicard.in' by='nitin.r@omnicard.in'
+2026-06-09 08:46:58,791 | INFO     | company-ai.admin | pid=77041 | user re-activated | email='yugal@omnicard.in' by='nitin.r@omnicard.in'
+2026-06-09 08:54:37,157 | INFO     | company-ai.admin | pid=78202 | standard model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/meta.llama3-8b-instruct-v1:0' by='nitin.r@omnicard.in'
+2026-06-09 10:58:50,450 | INFO     | company-ai.admin | pid=397 | KB ingestion started | job_id='DYIL3R8YQW'
+2026-06-09 10:58:50,480 | INFO     | company-ai.admin | pid=397 | manual KB resync requested | by='nitin.r@omnicard.in' job_id='DYIL3R8YQW'
+2026-06-11 07:36:45,424 | INFO     | company-ai.admin | pid=11953 | privileged model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-oss-safeguard-120b' by='paridhi.b@omnicard.in'
+2026-06-14 16:16:52,797 | INFO     | company-ai.admin | pid=25970 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/apac.anthropic.claude-3-sonnet-20240229-v1:0' by='nitin.r@omnicard.in'
+2026-06-15 05:08:00,582 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/global.anthropic.claude-haiku-4-5-20251001-v1:0' by='paridhi.b@omnicard.in'
+2026-06-15 05:34:13,812 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/apac.anthropic.claude-3-sonnet-20240229-v1:0' by='nitin.r@omnicard.in'
+2026-06-15 05:34:31,430 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/apac.anthropic.claude-3-5-sonnet-20240620-v1:0' by='nitin.r@omnicard.in'
+2026-06-15 05:34:41,563 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/global.anthropic.claude-sonnet-4-5-20250929-v1:0' by='nitin.r@omnicard.in'
+2026-06-15 05:34:44,108 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/global.anthropic.claude-sonnet-4-5-20250929-v1:0' by='paridhi.b@omnicard.in'
+2026-06-15 05:35:10,054 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/global.anthropic.claude-sonnet-4-6' by='nitin.r@omnicard.in'
+2026-06-15 05:35:17,920 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/global.anthropic.claude-opus-4-6-v1' by='nitin.r@omnicard.in'
+2026-06-15 05:35:53,996 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/apac.amazon.nova-pro-v1:0' by='nitin.r@omnicard.in'
+2026-06-15 05:36:16,089 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/meta.llama3-70b-instruct-v1:0' by='nitin.r@omnicard.in'
+2026-06-15 05:36:20,650 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/meta.llama3-8b-instruct-v1:0' by='nitin.r@omnicard.in'
+2026-06-15 05:36:27,485 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-32b-v1:0' by='nitin.r@omnicard.in'
+2026-06-15 05:36:38,591 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/moonshotai.kimi-k2.5' by='nitin.r@omnicard.in'
+2026-06-15 05:36:45,423 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/zai.glm-5' by='nitin.r@omnicard.in'
+2026-06-15 05:51:17,401 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/apac.anthropic.claude-3-5-sonnet-20240620-v1:0' by='paridhi.b@omnicard.in'
+2026-06-15 06:16:53,322 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/apac.anthropic.claude-3-sonnet-20240229-v1:0' by='paridhi.b@omnicard.in'
+2026-06-15 06:39:47,679 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/global.anthropic.claude-opus-4-6-v1' by='paridhi.b@omnicard.in'
+2026-06-15 06:41:25,558 | INFO     | company-ai.admin | pid=27884 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/global.anthropic.claude-sonnet-4-5-20250929-v1:0' by='paridhi.b@omnicard.in'
+2026-06-15 07:20:21,486 | INFO     | company-ai.admin | pid=30336 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/apac.anthropic.claude-3-7-sonnet-20250219-v1:0' by='paridhi.b@omnicard.in'
+2026-06-15 14:10:56,362 | INFO     | company-ai.admin | pid=30336 | standard model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-32b-v1:0' by='nitin.r@omnicard.in'
+2026-06-16 05:56:18,910 | INFO     | company-ai.admin | pid=32095 | privileged model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-oss-safeguard-120b' by='paridhi.b@omnicard.in'
+2026-06-16 08:42:12,925 | INFO     | company-ai.admin | pid=33216 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/global.anthropic.claude-haiku-4-5-20251001-v1:0' by='nitin.r@omnicard.in'
+2026-06-17 11:13:35,023 | INFO     | company-ai.admin | pid=13080 | standard model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/meta.llama3-70b-instruct-v1:0' by='nitin.r@omnicard.in'
+2026-06-17 11:13:44,543 | INFO     | company-ai.admin | pid=13080 | standard model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/apac.amazon.nova-micro-v1:0' by='nitin.r@omnicard.in'
+2026-06-17 11:35:53,590 | INFO     | company-ai.admin | pid=22132 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/apac.amazon.nova-lite-v1:0' by='nitin.r@omnicard.in'
+2026-06-17 11:38:38,914 | INFO     | company-ai.admin | pid=22132 | standard model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/meta.llama3-70b-instruct-v1:0' by='nitin.r@omnicard.in'
+2026-06-17 11:51:05,148 | INFO     | company-ai.admin | pid=3088 | privileged model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/meta.llama3-70b-instruct-v1:0' by='nitin.r@omnicard.in'
+2026-06-17 12:53:25,781 | INFO     | company-ai.admin | pid=51364 | external kb file adopted | s3_key='procurement/world-bank-Corporate-Procurement-Policy-Summary.pdf' by='nitin.r@omnicard.in'
+2026-06-17 12:53:30,229 | INFO     | company-ai.admin | pid=51364 | external kb file adopted | s3_key='procurement/aiib-corporate-procurement-policy.pdf' by='nitin.r@omnicard.in'
+2026-06-17 12:53:31,227 | INFO     | company-ai.admin | pid=51364 | external kb file adopted | s3_key='legal/Policy_Legal_Compliance_Framework.pdf' by='nitin.r@omnicard.in'
+2026-06-17 12:53:32,217 | INFO     | company-ai.admin | pid=51364 | external kb file adopted | s3_key='legal/Adevinta-Legal-Compliance-Policy.pdf' by='nitin.r@omnicard.in'
+2026-06-17 12:54:15,484 | INFO     | company-ai.admin | pid=51364 | privileged model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-oss-safeguard-120b' by='nitin.r@omnicard.in'
+2026-06-18 06:16:02,764 | INFO     | company-ai.admin | pid=1986 | S3 sidecar updated | bucket='bedrock-eroute' key='legal/Adevinta-Legal-Compliance-Policy.pdf' dept='legal' meta_keys=['city']
+2026-06-18 06:16:02,784 | INFO     | company-ai.admin | pid=1986 | kb metadata updated | s3_key='legal/Adevinta-Legal-Compliance-Policy.pdf' by='nitin.r@omnicard.in' sidecar=True
+2026-06-18 06:17:19,785 | INFO     | company-ai.admin | pid=1986 | S3 upload OK | bucket='bedrock-eroute' key='finance/HR-Policy-Manual-NIHR-2020-1.pdf' bytes=939543 dept='finance' meta_keys=['city']
+2026-06-18 06:17:26,596 | INFO     | company-ai.admin | pid=1986 | S3 delete OK | bucket='bedrock-eroute' key='finance/HR-Policy-Manual-NIHR-2020-1.pdf'
+2026-06-18 06:17:26,609 | INFO     | company-ai.admin | pid=1986 | kb doc deleted | s3_key='finance/HR-Policy-Manual-NIHR-2020-1.pdf' by='nitin.r@omnicard.in' s3_removed=True
+2026-06-18 06:18:56,817 | INFO     | company-ai.admin | pid=1986 | S3 upload OK | bucket='bedrock-eroute' key='finance/HR-Policy-Manual-NIHR-2020-1.pdf' bytes=939543 dept='finance' meta_keys=['city', 'country']
+2026-06-18 06:18:56,948 | INFO     | company-ai.admin | pid=1986 | S3 upload OK | bucket='bedrock-eroute' key='finance/company-ai-session-2 (1).txt' bytes=2196 dept='finance' meta_keys=['city']
+2026-06-18 06:19:48,884 | INFO     | company-ai.admin | pid=1986 | S3 sidecar updated | bucket='bedrock-eroute' key='finance/HR-Policy-Manual-NIHR-2020-1.pdf' dept='finance' meta_keys=['city', 'country', 'region']
+2026-06-18 06:19:48,899 | INFO     | company-ai.admin | pid=1986 | kb metadata updated | s3_key='finance/HR-Policy-Manual-NIHR-2020-1.pdf' by='nitin.r@omnicard.in' sidecar=True
+2026-06-18 06:19:54,664 | INFO     | company-ai.admin | pid=1986 | S3 delete OK | bucket='bedrock-eroute' key='finance/HR-Policy-Manual-NIHR-2020-1.pdf'
+2026-06-18 06:19:54,676 | INFO     | company-ai.admin | pid=1986 | kb doc deleted | s3_key='finance/HR-Policy-Manual-NIHR-2020-1.pdf' by='nitin.r@omnicard.in' s3_removed=True
+2026-06-18 06:19:58,493 | INFO     | company-ai.admin | pid=1986 | S3 delete OK | bucket='bedrock-eroute' key='finance/company-ai-session-2 (1).txt'
+2026-06-18 06:19:58,505 | INFO     | company-ai.admin | pid=1986 | kb doc deleted | s3_key='finance/company-ai-session-2 (1).txt' by='nitin.r@omnicard.in' s3_removed=True
+2026-06-18 06:28:32,922 | INFO     | company-ai.admin | pid=1986 | privileged model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/global.anthropic.claude-haiku-4-5-20251001-v1:0' by='paridhi.b@omnicard.in'
+2026-06-18 06:28:36,153 | INFO     | company-ai.admin | pid=1986 | privileged model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/meta.llama3-70b-instruct-v1:0' by='paridhi.b@omnicard.in'
+2026-06-18 06:32:57,928 | INFO     | company-ai.admin | pid=1986 | S3 sidecar updated | bucket='bedrock-eroute' key='legal/Policy_Legal_Compliance_Framework.pdf' dept='legal' meta_keys=['city']
+2026-06-18 06:32:57,942 | INFO     | company-ai.admin | pid=1986 | kb metadata updated | s3_key='legal/Policy_Legal_Compliance_Framework.pdf' by='paridhi.b@omnicard.in' sidecar=True
+2026-06-18 06:36:24,594 | INFO     | company-ai.admin | pid=1986 | S3 sidecar updated | bucket='bedrock-eroute' key='procurement/aiib-corporate-procurement-policy.pdf' dept='procurement' meta_keys=['region', 'country']
+2026-06-18 06:36:24,610 | INFO     | company-ai.admin | pid=1986 | kb metadata updated | s3_key='procurement/aiib-corporate-procurement-policy.pdf' by='nitin.r@omnicard.in' sidecar=True
+2026-06-18 06:36:51,161 | INFO     | company-ai.admin | pid=1986 | S3 sidecar updated | bucket='bedrock-eroute' key='procurement/world-bank-Corporate-Procurement-Policy-Summary.pdf' dept='procurement' meta_keys=['region']
+2026-06-18 06:36:51,184 | INFO     | company-ai.admin | pid=1986 | kb metadata updated | s3_key='procurement/world-bank-Corporate-Procurement-Policy-Summary.pdf' by='nitin.r@omnicard.in' sidecar=True
+2026-06-18 06:52:38,754 | INFO     | company-ai.admin | pid=1986 | privileged model changed | model='arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-oss-safeguard-120b' by='nitin.r@omnicard.in'
+2026-06-18 06:55:11,372 | INFO     | company-ai.admin | pid=1986 | KB ingestion started | job_id='UQNEYNP3JD'
+2026-06-18 06:55:11,403 | INFO     | company-ai.admin | pid=1986 | manual KB resync requested | by='nitin.r@omnicard.in' job_id='UQNEYNP3JD'
+2026-06-18 06:55:15,397 | INFO     | company-ai.admin | pid=1986 | manual KB resync requested | by='nitin.r@omnicard.in' job_id=None
+2026-06-18 07:17:25,269 | INFO     | company-ai.admin | pid=1986 | S3 sidecar updated | bucket='bedrock-eroute' key='legal/Adevinta-Legal-Compliance-Policy.pdf' dept='legal' meta_keys=['city', 'writters']
+2026-06-18 07:17:25,284 | INFO     | company-ai.admin | pid=1986 | kb metadata updated | s3_key='legal/Adevinta-Legal-Compliance-Policy.pdf' by='paridhi.b@omnicard.in' sidecar=True
+2026-06-18 07:17:37,087 | INFO     | company-ai.admin | pid=1986 | S3 sidecar updated | bucket='bedrock-eroute' key='legal/Adevinta-Legal-Compliance-Policy.pdf' dept='legal' meta_keys=['city', 'writters', 'version']
+2026-06-18 07:17:37,104 | INFO     | company-ai.admin | pid=1986 | kb metadata updated | s3_key='legal/Adevinta-Legal-Compliance-Policy.pdf' by='paridhi.b@omnicard.in' sidecar=True
+2026-06-18 07:17:56,289 | INFO     | company-ai.admin | pid=1986 | KB ingestion started | job_id='VANPZ67DGR'
+2026-06-18 07:17:56,311 | INFO     | company-ai.admin | pid=1986 | manual KB resync requested | by='paridhi.b@omnicard.in' job_id='VANPZ67DGR'
+2026-06-18 07:20:19,973 | INFO     | company-ai.admin | pid=1986 | KB ingestion started | job_id='Z88UZSUFUO'
+2026-06-18 07:20:19,994 | INFO     | company-ai.admin | pid=1986 | manual KB resync requested | by='paridhi@omni.in' job_id='Z88UZSUFUO'
+2026-06-18 07:30:23,286 | INFO     | company-ai.admin | pid=1986 | S3 sidecar updated | bucket='bedrock-eroute' key='finance/CORPORATE_FINANCE.pdf' dept='finance' meta_keys=['region', 'version', 'writters', 'year']
+2026-06-18 07:30:23,300 | INFO     | company-ai.admin | pid=1986 | kb metadata updated | s3_key='finance/CORPORATE_FINANCE.pdf' by='paridhi.b@omnicard.in' sidecar=True
+2026-06-18 07:30:30,143 | INFO     | company-ai.admin | pid=1986 | KB ingestion started | job_id='TEJRN3AYTS'
+2026-06-18 07:30:30,166 | INFO     | company-ai.admin | pid=1986 | manual KB resync requested | by='paridhi.b@omnicard.in' job_id='TEJRN3AYTS'
+2026-06-19 07:43:49,262 | INFO     | company-ai.admin | pid=3606 | standard model changed | model='arn:aws:bedrock:ap-south-1:012857119299:inference-profile/apac.amazon.nova-pro-v1:0' by='nitin.r@omnicard.in'
+2026-06-19 07:50:39,775 | INFO     | company-ai.admin | pid=3606 | user deactivated | email='pb@omni.in' by='paridhi.b@omnicard.in'
+2026-06-19 07:50:44,808 | INFO     | company-ai.admin | pid=3606 | user re-activated | email='pb@omni.in' by='paridhi.b@omnicard.in'
+2026-06-19 07:51:07,748 | INFO     | company-ai.admin | pid=3606 | dept created | code='test' by='paridhi.b@omnicard.in'
+2026-06-19 07:51:16,108 | INFO     | company-ai.admin | pid=3606 | dept deactivated | code='test' by='paridhi.b@omnicard.in'
+2026-06-19 07:51:25,847 | INFO     | company-ai.admin | pid=3606 | dept activated | code='test' by='paridhi.b@omnicard.in'
+2026-06-19 07:52:01,445 | WARNING  | company-ai.admin | pid=3606 | dept hard-deleted | code='test' by='paridhi.b@omnicard.in'

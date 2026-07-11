@@ -1,0 +1,5 @@
+2026-06-18 07:37:08,158 | INFO     | company-ai.feedback | pid=1986 | feedback | email='nitin.r@omnicard.in' dept='security' message_id=172 kind='NOT_HELPFUL'
+2026-06-18 07:37:09,149 | INFO     | company-ai.feedback | pid=1986 | ticket email dispatched | ticket_id=1 to=['security-support@company.example']
+2026-06-19 07:49:00,544 | INFO     | company-ai.feedback | pid=3606 | feedback | email='paridhi.b@omnicard.in' dept='finance' message_id=184 kind='HELPFUL'
+2026-06-19 07:49:34,504 | INFO     | company-ai.feedback | pid=3606 | feedback | email='paridhi.b@omnicard.in' dept='finance' message_id=186 kind='NOT_HELPFUL'
+2026-06-19 07:49:35,440 | INFO     | company-ai.feedback | pid=3606 | ticket email dispatched | ticket_id=2 to=['finance-support@company.example']

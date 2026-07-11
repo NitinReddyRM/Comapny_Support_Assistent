@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omni AI · Admin</title>
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/admin.css" />
+</head>
+<body class="admin-body">
+  <aside class="sidebar admin-sidebar">
+    <div class="sidebar-head">
+      <div class="brand small">
+        <div class="brand-mark">Om</div>
+        <div>
+          <div class="brand-name">Admin</div>
+          <div class="brand-tag">Omni AI</div>
+        </div>
+      </div>
+    </div>
+    <nav class="admin-nav">
+      <button class="nav-btn active" data-tab="overview"    data-icon-key="overview"><span class="nav-icon"></span><span>Overview</span></button>
+      <button class="nav-btn"        data-tab="departments" data-icon-key="building"><span class="nav-icon"></span><span>Departments</span></button>
+      <button class="nav-btn"        data-tab="users"       data-icon-key="users"><span class="nav-icon"></span><span>Users</span></button>
+      <button class="nav-btn"        data-tab="uploads"     data-icon-key="knowledge"><span class="nav-icon"></span><span>Knowledge Base</span></button>
+      <button class="nav-btn"        data-tab="tickets"     data-icon-key="tickets"><span class="nav-icon"></span><span>Tickets</span></button>
+      <button class="nav-btn"        data-tab="audit"       data-icon-key="audit"><span class="nav-icon"></span><span>Audit Log</span></button>
+    </nav>
+    <div class="sidebar-foot">
+      <!-- Same sun/moon switch we use in chat — drop-in component. -->
+      <label class="theme-switch" title="Toggle dark / light mode">
+        <input type="checkbox" id="themeSwitchInput" />
+        <span class="theme-switch-track">
+          <span class="theme-switch-icon left"  id="themeIconSun"></span>
+          <span class="theme-switch-icon right" id="themeIconMoon"></span>
+          <span class="theme-switch-thumb"></span>
+        </span>
+        <span class="theme-switch-label" id="themeLabel">Dark</span>
+      </label>
+      <div class="row">
+        <button class="ghost" id="goChat" title="Open chat"></button>
+        <button class="ghost" id="logoutBtn" title="Sign out"></button>
+      </div>
+    </div>
+  </aside>
+
+  <main class="admin-main">
+    <header class="admin-head">
+      <h1 id="tabTitle">Overview</h1>
+      <div class="muted" id="adminUser">…</div>
+    </header>
+
+    <!-- OVERVIEW -->
+    <section class="tab" id="tab-overview">
+      <div class="metrics-grid" id="metricsGrid"></div>
+
+      <!-- User Model Access — shuttle picker -->
+      <div class="card" id="userModelsCard">
+        <div class="card-head">
+          <div>
+            <h3>User Model Access</h3>
+            <p class="muted">Choose which AI models regular users can switch between in chat. CrossAdmin / SuperAdmin manage their own model separately in the chat window.</p>
+          </div>
+        </div>
+
+        <div class="shuttle-wrap" id="shuttleWrap">
+          <!-- Left: Available Models -->
+          <div class="shuttle-panel">
+            <div class="shuttle-panel-head">
+              <span class="shuttle-panel-title">Available Models</span>
+              <span class="shuttle-count" id="availableCount">0</span>
+            </div>
+            <div class="shuttle-search-box">
+              <i class="ti ti-search" aria-hidden="true"></i>
+              <input class="shuttle-search" id="availableSearch" type="search" placeholder="Search…" autocomplete="off" />
+            </div>
+            <div id="availableModels" class="shuttle-list" role="listbox" aria-multiselectable="true" aria-label="Available models" tabindex="0"></div>
+          </div>
+
+          <!-- Middle: Transfer controls -->
+          <div class="shuttle-controls" aria-label="Transfer controls">
+            <button class="shuttle-btn sh-all" id="moveAllRight" title="Add all" aria-label="Add all models">
+              <i class="ti ti-chevrons-right" aria-hidden="true"></i>
+            </button>
+            <button class="shuttle-btn sh-move" id="moveRight" title="Add selected" aria-label="Add selected models">
+              <i class="ti ti-chevron-right" aria-hidden="true"></i>
+            </button>
+            <span class="shuttle-sep" aria-hidden="true"></span>
+            <button class="shuttle-btn sh-move" id="moveLeft" title="Remove selected" aria-label="Remove selected models">
+              <i class="ti ti-chevron-left" aria-hidden="true"></i>
+            </button>
+            <button class="shuttle-btn sh-all" id="moveAllLeft" title="Remove all" aria-label="Remove all models">
+              <i class="ti ti-chevrons-left" aria-hidden="true"></i>
+            </button>
+          </div>
+
+          <!-- Right: User Access -->
+          <div class="shuttle-panel">
+            <div class="shuttle-panel-head">
+              <span class="shuttle-panel-title">User Access</span>
+              <span class="shuttle-count active" id="selectedCount">0</span>
+            </div>
+            <div class="shuttle-search-box">
+              <i class="ti ti-search" aria-hidden="true"></i>
+              <input class="shuttle-search" id="selectedSearch" type="search" placeholder="Search…" autocomplete="off" />
+            </div>
+            <div id="selectedModels" class="shuttle-list" role="listbox" aria-multiselectable="true" aria-label="User access models" tabindex="0"></div>
+          </div>
+        </div>
+
+        <div class="shuttle-footer" id="shuttleFooter">
+          <i class="ti ti-info-circle shuttle-hint-icon" aria-hidden="true"></i>
+          <span class="muted" id="shuttleHint">Click to select, Ctrl+click for multi-select, double-click to move instantly.</span>
+          <button class="primary" id="applyBtn" disabled>Apply changes</button>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <h3>Top queries (24h)</h3>
+        <table class="data-table" id="topQueries"><thead><tr><th>Query</th><th>Count</th></tr></thead><tbody></tbody></table>
+      </div>
+      <div class="card">
+        <h3>Department usage (24h)</h3>
+        <table class="data-table" id="deptUsage"><thead><tr><th>Department</th><th>Sessions</th></tr></thead><tbody></tbody></table>
+      </div>
+    </section>
+
+    <!-- DEPARTMENTS -->
+    <section class="tab hidden" id="tab-departments">
+      <!-- Visible to SUPERADMIN only — admin.js toggles `hidden`. -->
+      <div class="card hidden" id="cardAddDept">
+        <h3>Add department</h3>
+        <div class="row">
+          <input id="deptCode" placeholder="code (e.g. hr)" />
+          <input id="deptName" placeholder="Display name" />
+          <input id="deptDesc" placeholder="Description" />
+          <input id="deptEmail" placeholder="Support email" />
+          <button class="primary" id="addDeptBtn">Add</button>
+        </div>
+      </div>
+      <div class="card">
+        <h3 id="deptTableHeading">Departments</h3>
+        <table class="data-table" id="deptTable">
+          <thead><tr><th>Code</th><th>Name</th><th>Support email</th><th>Status</th><th>Actions</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- USERS -->
+    <section class="tab hidden" id="tab-users">
+      <div class="card">
+        <h3>Add user</h3>
+        <div class="row user-add-row">
+          <input id="uEmail" placeholder="email" />
+          <input id="uName" placeholder="Full name" />
+          <select id="uRole">
+            <option>USER</option>
+            <option>ADMIN</option>
+            <option>CROSSADMIN</option>
+            <option>SUPERADMIN</option>
+          </select>
+
+          <!-- Single-select dept (default; replaced by multi-select for CROSSADMIN). -->
+          <select id="uDept" class="dept-picker-single"></select>
+
+          <!-- Multi-select dept widget (visible only when role = CROSSADMIN). -->
+          <div class="dept-picker-multi hidden" id="uDeptMulti">
+            <button type="button" class="dept-picker-trigger" id="uDeptMultiTrigger" aria-haspopup="listbox" aria-expanded="false">
+              <div class="dept-picker-chips" id="uDeptMultiChips">
+                <span class="dept-picker-placeholder">Select departments…</span>
+              </div>
+              <span class="dept-picker-chevron" id="uDeptMultiChevron"></span>
+            </button>
+            <div class="dept-picker-menu" id="uDeptMultiMenu" role="listbox">
+              <div class="dept-picker-menu-head">
+                <span class="muted">Choose one or more departments</span>
+              </div>
+              <ul class="dept-picker-list" id="uDeptMultiList"></ul>
+              <div class="dept-picker-foot">
+                <span class="muted" id="uDeptMultiCount">0 selected</span>
+                <button type="button" class="primary" id="uDeptMultiClose">Select</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Shown when role = SUPERADMIN: global access, so no dept is
+               picked — we surface a read-only "All departments" badge. -->
+          <div class="dept-picker-all hidden" id="uDeptAll" title="Super Admins have access to every department">
+            <span class="dept-picker-all-badge">All departments</span>
+          </div>
+
+          <select id="uModel" title="Per-user model preference. 'Default' uses the admin-set standard model.">
+            <option value="">Default (standard)</option>
+          </select>
+          <input id="uTokenLimit" type="number" min="0" step="1000"
+                 placeholder="Monthly tokens (blank = default)"
+                 title="Per-user monthly token budget. Leave blank to use the system default. 0 disables chat for this user." />
+          <button class="primary" id="addUserBtn">Add user</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <h3>Users</h3>
+          <label class="user-filter">
+            <span class="muted">Department</span>
+            <select id="userDeptFilter">
+              <option value="">All departments</option>
+            </select>
+          </label>
+        </div>
+        <table class="data-table" id="userTable">
+          <thead><tr><th>Email</th><th>Name</th><th>Role</th><th>DEPT</th><th>Model</th><th>Tokens (this month)</th><th>Active</th><th>Last login</th><th class="col-actions"></th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- UPLOADS / KB -->
+    <section class="tab hidden" id="tab-uploads">
+      <div class="card kb-upload-card">
+        <div class="card-head">
+          <div>
+            <h3>Upload to Knowledge Base</h3>
+            <p class="muted">PDF, DOCX, XLSX, CSV, PPTX, TXT. Files are stored under <code>s3://&lt;bucket&gt;/&lt;department&gt;/</code> and a Bedrock KB ingestion job is triggered after upload.</p>
+          </div>
+          <button class="primary kb-sync-btn" id="resyncBtn" title="Trigger KB resync">Sync KB</button>
+        </div>
+
+        <div class="kb-upload-form">
+          <label class="field">
+            <span>Department</span>
+            <select id="uplDept"></select>
+          </label>
+
+          <!-- Arbitrary metadata: N key/value rows. Each becomes a filter
+               facet in chat. These are the DEFAULTS — every file in the
+               queue inherits them. Each file can then add or override
+               specific keys from its own per-file editor. -->
+          <div class="field kb-meta">
+            <span>Default metadata (applied to every file)</span>
+            <div id="uplMetaRows" class="meta-rows"></div>
+            <button type="button" class="ghost meta-add" id="uplMetaAdd">+ Add field</button>
+            <small class="muted">Tag every file with these key/value pairs (e.g. <code>region = india</code>, <code>year = 2024</code>). Per-file metadata (set on each file below) overrides these keys. For multiple values on the same key, separate them with commas (e.g. <code>region = india, russia, usa</code>). Users can filter on these in chat.</small>
+          </div>
+
+          <!-- Dropzone -->
+          <div class="kb-dropzone" id="uplDrop" tabindex="0">
+            <span class="kb-dropzone-icon" id="uplDropIcon"></span>
+            <div class="kb-dropzone-copy">
+              <strong>Drop files here</strong>
+              <span class="muted">or <button class="link" id="uplPickBtn" type="button">browse</button> — up to 50 MB each</span>
+            </div>
+            <input type="file" id="uplFile" multiple
+                   accept=".pdf,.docx,.xlsx,.csv,.pptx,.ppt,.txt" hidden />
+          </div>
+
+          <div class="row" id="uplActions" style="display:none;">
+            <button class="primary" id="uplBtn">Upload all</button>
+            <button class="ghost"   id="uplClearBtn">Clear</button>
+          </div>
+
+          <!-- Per-file progress -->
+          <ul class="kb-upload-list" id="uplQueue"></ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h3>Knowledge base files</h3>
+          <button class="ghost icon-btn" id="kbRefreshBtn" title="Refresh" aria-label="Refresh"></button>
+        </div>
+        <div class="row kb-filters">
+          <label class="field flex-1">
+            <span class="visually-hidden">Search</span>
+            <span class="input-with-icon">
+              <span class="input-icon" id="kbSearchIcon"></span>
+              <input id="kbSearch" placeholder="Search filename…" />
+            </span>
+          </label>
+          <select id="kbDeptFilter">
+            <option value="">All departments</option>
+          </select>
+          <select id="kbStatusFilter">
+            <option value="">All statuses</option>
+            <option value="ACTIVE">Active</option>
+            <option value="INGESTING">Ingesting</option>
+            <option value="INGESTION_FAILED">Ingestion failed</option>
+          </select>
+        </div>
+        <table class="data-table kb-table" id="kbTable">
+          <thead>
+            <tr>
+              <th>File</th>
+              <th>Department</th>
+              <th>Metadata</th>
+              <th>Uploaded by</th>
+              <th>Size</th>
+              <th>Uploaded</th>
+              <th>Status</th>
+              <th class="col-actions"></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div class="kb-pager">
+          <button class="ghost" id="kbPrevBtn">Prev</button>
+          <span class="muted" id="kbPagerInfo">Page 1</span>
+          <button class="ghost" id="kbNextBtn">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Confirmation modal (KB delete / dept delete / remove access) -->
+    <div class="modal-root hidden" id="modalRoot" role="dialog" aria-modal="true">
+      <div class="modal-backdrop" data-act="cancel"></div>
+      <div class="modal-card">
+        <button class="modal-x" data-act="cancel" aria-label="Close">×</button>
+        <h3 id="modalTitle">Confirm</h3>
+        <p id="modalBody" class="muted"></p>
+        <div class="modal-actions">
+          <button class="ghost" data-act="cancel">Cancel</button>
+          <button class="danger" id="modalConfirm">Confirm</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- KB file metadata editor (opened from the KB list "edit metadata" button) -->
+    <div class="modal-root hidden" id="kbMetaRoot" role="dialog" aria-modal="true">
+      <div class="modal-backdrop" data-act="kbm-cancel"></div>
+      <div class="modal-card">
+        <button class="modal-x" data-act="kbm-cancel" aria-label="Close">×</button>
+        <h3>Edit metadata</h3>
+        <p class="muted">File: <strong id="kbmFile">—</strong></p>
+        <div class="kbm-meta-rows" id="kbmRows"></div>
+        <button type="button" class="ghost meta-add" id="kbmAddBtn">+ Add field</button>
+        <small class="muted">Add or remove key/value pairs. Comma-separated values become a multi-value tag (e.g. <code>region = india, usa</code>). Changes take effect after the next KB <strong>Sync</strong>.</small>
+        <div class="modal-actions">
+          <button class="ghost" data-act="kbm-cancel">Cancel</button>
+          <button class="primary" id="kbmSaveBtn">Save metadata</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Per-user token limit editor (opened from the user list pencil) -->
+    <div class="modal-root hidden" id="tokenLimitRoot" role="dialog" aria-modal="true">
+      <div class="modal-backdrop" data-act="tl-cancel"></div>
+      <div class="modal-card">
+        <button class="modal-x" data-act="tl-cancel" aria-label="Close">×</button>
+        <h3>Edit monthly token limit</h3>
+        <p class="muted" id="tlSub">User: <strong id="tlEmail"></strong></p>
+        <div class="tl-usage-row">
+          <span class="muted">Used this month</span>
+          <strong id="tlUsed">0</strong>
+        </div>
+        <div class="tl-usage-row">
+          <span class="muted">Current limit</span>
+          <strong id="tlCurrent">default</strong>
+        </div>
+        <label class="field">
+          <span>New monthly limit</span>
+          <input id="tlInput" type="number" min="0" step="1000"
+                 placeholder="Blank = use system default" />
+          <small class="muted">Set <code>0</code> to disable chat for this user. Leave blank to fall back to the system default.</small>
+        </label>
+        <div class="modal-actions">
+          <button class="ghost" data-act="tl-cancel">Cancel</button>
+          <button class="primary" id="tlSaveBtn">Save</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Per-user model editor (opened from the user list model button) -->
+    <div class="modal-root hidden" id="modelEditRoot" role="dialog" aria-modal="true">
+      <div class="modal-backdrop" data-act="me-cancel"></div>
+      <div class="modal-card">
+        <button class="modal-x" data-act="me-cancel" aria-label="Close">×</button>
+        <h3>Change user model</h3>
+        <p class="muted">User: <strong id="meEmail"></strong></p>
+        <div class="tl-usage-row">
+          <span class="muted">Current model</span>
+          <strong id="meCurrent">Default</strong>
+        </div>
+        <label class="field">
+          <span>Model preference</span>
+          <select id="meSelect">
+            <option value="">Default (standard)</option>
+          </select>
+          <small class="muted">Pick a model for this user, or leave as "Default" to use the admin-set standard model.</small>
+        </label>
+        <div class="modal-actions">
+          <button class="ghost" data-act="me-cancel">Cancel</button>
+          <button class="primary" id="meSaveBtn">Save</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Per-user role editor (opened from the user list shield button) -->
+    <div class="modal-root hidden" id="roleEditRoot" role="dialog" aria-modal="true">
+      <div class="modal-backdrop" data-act="re-cancel"></div>
+      <div class="modal-card">
+        <button class="modal-x" data-act="re-cancel" aria-label="Close">×</button>
+        <h3>Change user role</h3>
+        <p class="muted">User: <strong id="reEmail"></strong></p>
+        <div class="tl-usage-row">
+          <span class="muted">Current role</span>
+          <strong id="reCurrent">—</strong>
+        </div>
+        <label class="field">
+          <span>New role</span>
+          <select id="reRole">
+            <option>USER</option>
+            <option>ADMIN</option>
+            <option>CROSSADMIN</option>
+            <option>SUPERADMIN</option>
+          </select>
+        </label>
+
+        <!-- Visible only when the new role is CROSSADMIN. -->
+        <label class="field hidden" id="reDeptWrap">
+          <span>Departments (CrossAdmin scope)</span>
+          <select id="reDeptList" multiple size="6"></select>
+          <small class="muted">Hold Ctrl / Cmd to select multiple. The first selection becomes the home dept.</small>
+        </label>
+
+        <!-- Visible for single-dept roles only. -->
+        <label class="field" id="reSingleDeptWrap">
+          <span>Home department</span>
+          <select id="reSingleDept"></select>
+        </label>
+
+        <div class="modal-actions">
+          <button class="ghost" data-act="re-cancel">Cancel</button>
+          <button class="primary" id="reSaveBtn">Save</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Guardrail block details modal (opened from the Overview metric) -->
+    <div class="modal-root hidden" id="guardrailRoot" role="dialog" aria-modal="true">
+      <div class="modal-backdrop" data-act="gr-cancel"></div>
+      <div class="modal-card modal-card-wide">
+        <button class="modal-x" data-act="gr-cancel" aria-label="Close">×</button>
+        <h3>Details blocks :</h3>
+        <div id="guardrailBody"></div>
+        <div class="modal-actions">
+          <button class="ghost" data-act="gr-cancel">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- TICKETS -->
+    <section class="tab hidden" id="tab-tickets">
+      <div class="card">
+        <div class="row">
+          <select id="tStatusFilter">
+            <option value="">All</option>
+            <option>OPEN</option><option>IN_PROGRESS</option><option>WAITING_USER</option>
+            <option>RESOLVED</option><option>CLOSED</option>
+          </select>
+          <button class="ghost" id="reloadTicketsBtn">Reload</button>
+        </div>
+        <table class="data-table" id="ticketTable">
+          <thead><tr><th>#</th><th>Subject</th><th>Dept</th><th>Status</th><th>Priority</th><th>Created</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="card hidden" id="ticketDetail">
+        <div class="card-head">
+          <h3 id="tdSubject"></h3>
+          <button class="ghost icon-btn" id="tdCloseBtn" title="Close" aria-label="Close">×</button>
+        </div>
+        <p class="muted" id="tdMeta"></p>
+        <div class="row">
+          <select id="tdStatus">
+            <option>OPEN</option><option>IN_PROGRESS</option><option>WAITING_USER</option>
+            <option>RESOLVED</option><option>CLOSED</option>
+          </select>
+          <input id="tdNotes" placeholder="Resolution notes" />
+          <button class="primary" id="tdSaveBtn">Save</button>
+        </div>
+        <h4>Query</h4><pre id="tdQuery" class="quote"></pre>
+        <h4>AI Response</h4><pre id="tdAnswer" class="quote"></pre>
+      </div>
+    </section>
+
+    <!-- AUDIT -->
+    <section class="tab hidden" id="tab-audit">
+      <div class="card">
+        <h3>Audit log</h3>
+        <table class="data-table" id="auditTable">
+          <thead><tr><th>When</th><th>User</th><th>Action</th><th>Resource</th><th>Details</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="/js/icons.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/theme.js"></script>
+  <script src="/js/admin.js"></script>
+</body>
+</html>
