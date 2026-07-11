@@ -1,310 +1,310 @@
-2026-06-08 06:51:54,318 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.102'
-2026-06-08 06:51:56,489 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-08 06:52:03,921 | INFO     | company-ai.auth | pid=66720 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-08 06:58:57,130 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.102'
-2026-06-08 06:58:59,840 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-08 06:59:01,901 | INFO     | company-ai.auth | pid=66720 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-08 07:01:07,627 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-08 07:01:10,432 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-08 07:01:20,440 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.r@omnicard.in' ip='192.168.1.111'
-2026-06-08 07:01:22,353 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-08 07:01:24,968 | INFO     | company-ai.auth | pid=66720 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-08 11:46:00,547 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.n@omnicard.in' ip='10.212.134.106'
-2026-06-08 11:46:04,413 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.n@omnicard.in'
-2026-06-08 11:46:22,234 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.n@omnicard.in' ip='10.212.134.106'
-2026-06-08 11:46:30,023 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.n@omnicard.in'
-2026-06-08 11:46:39,918 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.n@omnicard.in' ip='10.212.134.106'
-2026-06-08 11:46:46,505 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.n@omnicard.in'
-2026-06-08 11:46:59,304 | INFO     | company-ai.auth | pid=66720 | Department selected | email='nitin.n@omnicard.in' dept='it'
-2026-06-08 12:08:04,232 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='paridhi.b@omnicard.in' ip='10.212.134.106'
-2026-06-08 12:08:07,337 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-08 12:08:15,848 | INFO     | company-ai.auth | pid=66720 | Department selected | email='paridhi.b@omnicard.in' dept='legal'
-2026-06-08 12:30:54,859 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.r@omnicard.in' ip='192.168.1.111'
-2026-06-08 12:30:56,577 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-08 12:30:58,689 | INFO     | company-ai.auth | pid=66720 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-08 12:31:49,224 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.106'
-2026-06-08 12:31:52,510 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-08 12:31:55,382 | INFO     | company-ai.auth | pid=66720 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-09 04:56:36,076 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.102'
-2026-06-09 04:56:38,143 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-09 04:56:40,146 | INFO     | company-ai.auth | pid=66720 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-09 05:14:22,556 | INFO     | company-ai.auth | pid=69411 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance']
-2026-06-09 05:14:29,087 | INFO     | company-ai.auth | pid=69411 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it']
-2026-06-09 05:15:11,888 | INFO     | company-ai.auth | pid=69411 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'procurement', 'security', 'operations']
-2026-06-09 08:31:03,939 | INFO     | company-ai.auth | pid=77041 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.100'
-2026-06-09 08:31:05,967 | INFO     | company-ai.auth | pid=77041 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-09 08:31:08,175 | INFO     | company-ai.auth | pid=77041 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-09 08:55:36,911 | INFO     | company-ai.auth | pid=78202 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.100'
-2026-06-09 08:55:39,137 | INFO     | company-ai.auth | pid=78202 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-09 08:55:41,672 | INFO     | company-ai.auth | pid=78202 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-09 10:17:19,778 | INFO     | company-ai.auth | pid=78202 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.101'
-2026-06-09 10:17:22,674 | INFO     | company-ai.auth | pid=78202 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-09 10:17:26,422 | INFO     | company-ai.auth | pid=78202 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-09 11:04:19,214 | INFO     | company-ai.auth | pid=397 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-09 12:17:03,808 | INFO     | company-ai.auth | pid=397 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-09 12:17:06,043 | INFO     | company-ai.auth | pid=397 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-09 12:17:07,358 | INFO     | company-ai.auth | pid=397 | Department selected | email='paridhi.b@omnicard.in' dept='legal'
-2026-06-09 12:17:20,010 | INFO     | company-ai.auth | pid=397 | OTP issued | email='nitin.r@omnicard.in' ip='192.168.1.111'
-2026-06-09 12:17:25,870 | INFO     | company-ai.auth | pid=397 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-09 12:17:28,066 | INFO     | company-ai.auth | pid=397 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-09 12:51:29,396 | INFO     | company-ai.auth | pid=905 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.103'
-2026-06-09 12:51:31,502 | INFO     | company-ai.auth | pid=905 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-09 12:51:33,289 | INFO     | company-ai.auth | pid=905 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-09 12:55:01,519 | INFO     | company-ai.auth | pid=905 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement']
-2026-06-09 12:55:03,960 | INFO     | company-ai.auth | pid=905 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-10 04:43:00,717 | INFO     | company-ai.auth | pid=905 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.100'
-2026-06-10 04:43:05,876 | INFO     | company-ai.auth | pid=905 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-10 04:43:08,419 | INFO     | company-ai.auth | pid=905 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-10 05:33:45,391 | INFO     | company-ai.auth | pid=905 | OTP issued | email='nitin.r@omnicard.in' ip='192.168.1.111'
-2026-06-10 05:33:47,005 | INFO     | company-ai.auth | pid=905 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-10 05:33:49,096 | INFO     | company-ai.auth | pid=905 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-10 05:41:04,641 | INFO     | company-ai.auth | pid=2416 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-10 05:41:06,704 | INFO     | company-ai.auth | pid=2416 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-10 05:41:08,054 | INFO     | company-ai.auth | pid=2416 | Department selected | email='paridhi.b@omnicard.in' dept='legal'
-2026-06-10 05:41:19,012 | INFO     | company-ai.auth | pid=2416 | OTP issued | email='nitin.r@omnicard.in' ip='192.168.1.111'
-2026-06-10 05:41:20,337 | INFO     | company-ai.auth | pid=2416 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-10 05:41:22,712 | INFO     | company-ai.auth | pid=2416 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-10 05:41:50,402 | INFO     | company-ai.auth | pid=2416 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-10 05:41:53,875 | INFO     | company-ai.auth | pid=2416 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-10 05:41:57,011 | INFO     | company-ai.auth | pid=2416 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-10 05:43:41,433 | INFO     | company-ai.auth | pid=2416 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-10 05:43:43,141 | INFO     | company-ai.auth | pid=2416 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-10 05:43:45,253 | INFO     | company-ai.auth | pid=2416 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-10 05:46:46,266 | INFO     | company-ai.auth | pid=3015 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.100'
-2026-06-10 05:46:49,605 | INFO     | company-ai.auth | pid=3015 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-10 05:46:51,365 | INFO     | company-ai.auth | pid=3015 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-10 10:54:53,636 | INFO     | company-ai.auth | pid=4141 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.107'
-2026-06-10 10:54:58,037 | INFO     | company-ai.auth | pid=4141 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-10 10:55:01,023 | INFO     | company-ai.auth | pid=4141 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-10 11:15:34,322 | INFO     | company-ai.auth | pid=4141 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.107'
-2026-06-10 11:15:50,953 | INFO     | company-ai.auth | pid=4141 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-10 11:15:56,246 | INFO     | company-ai.auth | pid=4141 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-10 11:16:16,733 | INFO     | company-ai.auth | pid=4141 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.107'
-2026-06-10 11:16:29,067 | INFO     | company-ai.auth | pid=4141 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-10 11:17:02,047 | INFO     | company-ai.auth | pid=4141 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-11 05:45:35,227 | INFO     | company-ai.auth | pid=4141 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-11 05:45:36,849 | INFO     | company-ai.auth | pid=4141 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-11 05:45:44,496 | INFO     | company-ai.auth | pid=4141 | Departments selected | email='paridhi.b@omnicard.in' dept='security' depts=['security']
-2026-06-11 05:48:34,435 | INFO     | company-ai.auth | pid=4141 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-11 05:48:35,975 | INFO     | company-ai.auth | pid=4141 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-11 05:48:38,550 | INFO     | company-ai.auth | pid=4141 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-11 05:56:42,245 | INFO     | company-ai.auth | pid=8715 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-11 05:56:43,839 | INFO     | company-ai.auth | pid=8715 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-11 05:56:45,809 | INFO     | company-ai.auth | pid=8715 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-11 06:01:13,377 | INFO     | company-ai.auth | pid=9099 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-11 06:01:14,812 | INFO     | company-ai.auth | pid=9099 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-11 06:01:17,238 | INFO     | company-ai.auth | pid=9099 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-11 07:02:08,336 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.104'
-2026-06-11 07:02:12,395 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.104'
-2026-06-11 07:02:19,572 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.104'
-2026-06-11 07:02:22,064 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.104'
-2026-06-11 07:02:30,450 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.104'
-2026-06-11 07:02:50,178 | INFO     | company-ai.auth | pid=9576 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-11 07:02:59,986 | INFO     | company-ai.auth | pid=9576 | Departments selected | email='nitin.r@omnicard.in' dept='security' depts=['security', 'finance', 'hr', 'it', 'legal', 'operations', 'procurement']
-2026-06-11 07:05:20,475 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-11 07:05:23,084 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-11 07:05:32,290 | INFO     | company-ai.auth | pid=9576 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-11 07:05:41,484 | INFO     | company-ai.auth | pid=9576 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-11 07:05:53,115 | INFO     | company-ai.auth | pid=9576 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-11 07:06:16,037 | INFO     | company-ai.auth | pid=9576 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-11 07:12:26,092 | INFO     | company-ai.auth | pid=10620 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-11 07:12:29,139 | INFO     | company-ai.auth | pid=10620 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-11 07:12:33,248 | INFO     | company-ai.auth | pid=10620 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-11 07:34:32,400 | INFO     | company-ai.auth | pid=11953 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-11 07:34:45,047 | INFO     | company-ai.auth | pid=11953 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-11 07:34:51,732 | INFO     | company-ai.auth | pid=11953 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-11 07:35:01,577 | INFO     | company-ai.auth | pid=11953 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-11 07:35:14,058 | INFO     | company-ai.auth | pid=11953 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-11 07:36:08,795 | INFO     | company-ai.auth | pid=11953 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-11 08:06:08,500 | INFO     | company-ai.auth | pid=12889 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.104'
-2026-06-11 08:06:11,690 | INFO     | company-ai.auth | pid=12889 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-11 08:06:14,275 | INFO     | company-ai.auth | pid=12889 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-11 09:11:45,377 | INFO     | company-ai.auth | pid=20329 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.104'
-2026-06-11 09:11:47,815 | INFO     | company-ai.auth | pid=20329 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-11 09:11:50,130 | INFO     | company-ai.auth | pid=20329 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-11 12:49:15,581 | INFO     | company-ai.auth | pid=20329 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-11 12:49:18,014 | INFO     | company-ai.auth | pid=20329 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-11 12:49:28,932 | INFO     | company-ai.auth | pid=20329 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-12 09:00:56,170 | INFO     | company-ai.auth | pid=20329 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-12 09:00:58,051 | INFO     | company-ai.auth | pid=20329 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-12 09:01:00,907 | INFO     | company-ai.auth | pid=20329 | Departments selected | email='paridhi.b@omnicard.in' dept='security' depts=['security']
-2026-06-12 13:09:48,052 | INFO     | company-ai.auth | pid=24270 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-12 13:09:50,129 | INFO     | company-ai.auth | pid=24270 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-12 13:09:52,291 | INFO     | company-ai.auth | pid=24270 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-12 13:13:46,967 | INFO     | company-ai.auth | pid=24270 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-12 13:13:48,929 | INFO     | company-ai.auth | pid=24270 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-12 13:13:51,356 | INFO     | company-ai.auth | pid=24270 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-12 13:16:31,478 | INFO     | company-ai.auth | pid=24270 | OTP issued | email='nitin.r@omnicard.in' ip='192.168.1.111'
-2026-06-12 13:16:33,515 | INFO     | company-ai.auth | pid=24270 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-12 13:16:35,922 | INFO     | company-ai.auth | pid=24270 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-12 13:18:56,060 | INFO     | company-ai.auth | pid=24270 | OTP issued | email='paridhi@omni.in' ip='192.168.1.111'
-2026-06-12 13:19:00,263 | INFO     | company-ai.auth | pid=24270 | OTP verified | email='paridhi@omni.in'
-2026-06-12 13:19:02,664 | INFO     | company-ai.auth | pid=24270 | Department selected | email='paridhi@omni.in' dept='security'
-2026-06-14 02:48:32,980 | INFO     | company-ai.auth | pid=25970 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.100'
-2026-06-14 02:48:35,888 | INFO     | company-ai.auth | pid=25970 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-14 02:48:39,230 | INFO     | company-ai.auth | pid=25970 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-14 16:15:53,219 | INFO     | company-ai.auth | pid=25970 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.100'
-2026-06-14 16:15:56,999 | INFO     | company-ai.auth | pid=25970 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-14 16:15:59,711 | INFO     | company-ai.auth | pid=25970 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-15 04:21:54,996 | INFO     | company-ai.auth | pid=25970 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.101'
-2026-06-15 04:21:59,284 | INFO     | company-ai.auth | pid=25970 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-15 04:22:04,723 | INFO     | company-ai.auth | pid=25970 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-15 05:05:57,181 | INFO     | company-ai.auth | pid=27884 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-15 05:05:58,787 | INFO     | company-ai.auth | pid=27884 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-15 05:06:01,603 | INFO     | company-ai.auth | pid=27884 | Departments selected | email='paridhi.b@omnicard.in' dept='security' depts=['security']
-2026-06-15 05:33:53,648 | INFO     | company-ai.auth | pid=27884 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.103'
-2026-06-15 05:33:58,789 | INFO     | company-ai.auth | pid=27884 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-15 05:34:01,030 | INFO     | company-ai.auth | pid=27884 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-15 05:51:05,167 | INFO     | company-ai.auth | pid=27884 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-15 05:51:07,046 | INFO     | company-ai.auth | pid=27884 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-15 05:51:10,110 | INFO     | company-ai.auth | pid=27884 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-15 06:11:29,963 | INFO     | company-ai.auth | pid=27884 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-15 06:11:31,441 | INFO     | company-ai.auth | pid=27884 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-15 06:11:33,442 | INFO     | company-ai.auth | pid=27884 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-15 06:39:41,373 | INFO     | company-ai.auth | pid=27884 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-15 06:39:42,825 | INFO     | company-ai.auth | pid=27884 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-15 06:39:44,758 | INFO     | company-ai.auth | pid=27884 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-15 06:41:17,658 | INFO     | company-ai.auth | pid=27884 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-15 06:41:18,929 | INFO     | company-ai.auth | pid=27884 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-15 06:41:20,925 | INFO     | company-ai.auth | pid=27884 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-15 07:18:34,563 | INFO     | company-ai.auth | pid=30038 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-15 07:18:36,152 | INFO     | company-ai.auth | pid=30038 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-15 07:18:39,530 | INFO     | company-ai.auth | pid=30038 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-15 11:33:49,482 | INFO     | company-ai.auth | pid=30336 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.102'
-2026-06-15 11:33:52,855 | INFO     | company-ai.auth | pid=30336 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-15 11:33:55,207 | INFO     | company-ai.auth | pid=30336 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-15 14:09:52,160 | INFO     | company-ai.auth | pid=30336 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.102'
-2026-06-15 14:10:01,435 | INFO     | company-ai.auth | pid=30336 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-15 14:10:03,491 | INFO     | company-ai.auth | pid=30336 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 05:34:56,389 | INFO     | company-ai.auth | pid=30336 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-16 05:34:57,976 | INFO     | company-ai.auth | pid=30336 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-16 05:35:01,833 | INFO     | company-ai.auth | pid=30336 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 06:01:08,636 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-16 06:01:10,149 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-16 06:01:12,318 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 06:04:28,238 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-16 06:04:29,897 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-16 06:04:32,032 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 06:09:11,736 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-16 06:09:13,180 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-16 06:09:15,302 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 06:10:37,050 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-16 06:10:38,456 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-16 06:10:42,146 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 06:14:26,818 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-16 06:14:28,316 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-16 06:14:30,391 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 06:20:21,049 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-16 06:20:22,325 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-16 06:20:24,340 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 06:22:29,734 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-16 06:22:31,706 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-16 06:22:33,845 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 06:24:40,537 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-16 06:24:45,695 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-16 06:24:47,581 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 06:27:54,914 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-16 06:27:56,330 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-16 06:27:58,658 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 06:29:56,547 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@omnicard.in' ip='127.0.0.1'
-2026-06-16 06:29:57,942 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-16 06:30:00,314 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 07:11:49,716 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.104'
-2026-06-16 07:11:52,710 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-16 07:11:55,805 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 08:19:33,541 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.104'
-2026-06-16 08:19:35,757 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-16 08:19:37,405 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 08:23:00,817 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='nitin.r@omnicard.in' dept='procurement' depts=['procurement']
-2026-06-16 08:30:20,530 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='nitin.r@omnicard.in' dept='procurement' depts=['procurement', 'finance', 'it', 'hr', 'legal', 'operations']
-2026-06-16 08:30:27,367 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='nitin.r@omnicard.in' dept='procurement' depts=['procurement', 'finance', 'it', 'hr', 'legal', 'operations', 'security']
-2026-06-16 08:39:10,266 | INFO     | company-ai.auth | pid=33216 | OTP issued | email='paridhi.b@omnicard.in' ip='10.212.134.104'
-2026-06-16 08:39:13,973 | INFO     | company-ai.auth | pid=33216 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-16 08:39:15,553 | INFO     | company-ai.auth | pid=33216 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 08:39:50,374 | INFO     | company-ai.auth | pid=33216 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.104'
-2026-06-16 08:39:52,650 | INFO     | company-ai.auth | pid=33216 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-16 08:39:54,071 | INFO     | company-ai.auth | pid=33216 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-16 08:40:15,816 | INFO     | company-ai.auth | pid=33216 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement']
-2026-06-16 08:40:24,054 | INFO     | company-ai.auth | pid=33216 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance']
-2026-06-16 08:40:50,332 | INFO     | company-ai.auth | pid=33216 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'legal', 'it', 'operations']
-2026-06-16 08:45:20,368 | INFO     | company-ai.auth | pid=33348 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'legal', 'it', 'operations', 'procurement', 'security']
-2026-06-17 05:02:50,311 | INFO     | company-ai.auth | pid=33348 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.102'
-2026-06-17 05:02:53,588 | INFO     | company-ai.auth | pid=33348 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-17 05:03:02,568 | INFO     | company-ai.auth | pid=33348 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-08 06:51:54,318 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.102'
+2026-06-08 06:51:56,489 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-08 06:52:03,921 | INFO     | company-ai.auth | pid=66720 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-08 06:58:57,130 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.102'
+2026-06-08 06:58:59,840 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-08 06:59:01,901 | INFO     | company-ai.auth | pid=66720 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-08 07:01:07,627 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-08 07:01:10,432 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-08 07:01:20,440 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.r@Companycard.in' ip='192.168.1.111'
+2026-06-08 07:01:22,353 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-08 07:01:24,968 | INFO     | company-ai.auth | pid=66720 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-08 11:46:00,547 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.n@Companycard.in' ip='10.212.134.106'
+2026-06-08 11:46:04,413 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.n@Companycard.in'
+2026-06-08 11:46:22,234 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.n@Companycard.in' ip='10.212.134.106'
+2026-06-08 11:46:30,023 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.n@Companycard.in'
+2026-06-08 11:46:39,918 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.n@Companycard.in' ip='10.212.134.106'
+2026-06-08 11:46:46,505 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.n@Companycard.in'
+2026-06-08 11:46:59,304 | INFO     | company-ai.auth | pid=66720 | Department selected | email='nitin.n@Companycard.in' dept='it'
+2026-06-08 12:08:04,232 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='paridhi.b@Companycard.in' ip='10.212.134.106'
+2026-06-08 12:08:07,337 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-08 12:08:15,848 | INFO     | company-ai.auth | pid=66720 | Department selected | email='paridhi.b@Companycard.in' dept='legal'
+2026-06-08 12:30:54,859 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.r@Companycard.in' ip='192.168.1.111'
+2026-06-08 12:30:56,577 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-08 12:30:58,689 | INFO     | company-ai.auth | pid=66720 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-08 12:31:49,224 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.106'
+2026-06-08 12:31:52,510 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-08 12:31:55,382 | INFO     | company-ai.auth | pid=66720 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-09 04:56:36,076 | INFO     | company-ai.auth | pid=66720 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.102'
+2026-06-09 04:56:38,143 | INFO     | company-ai.auth | pid=66720 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-09 04:56:40,146 | INFO     | company-ai.auth | pid=66720 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-09 05:14:22,556 | INFO     | company-ai.auth | pid=69411 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance']
+2026-06-09 05:14:29,087 | INFO     | company-ai.auth | pid=69411 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it']
+2026-06-09 05:15:11,888 | INFO     | company-ai.auth | pid=69411 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'procurement', 'security', 'operations']
+2026-06-09 08:31:03,939 | INFO     | company-ai.auth | pid=77041 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.100'
+2026-06-09 08:31:05,967 | INFO     | company-ai.auth | pid=77041 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-09 08:31:08,175 | INFO     | company-ai.auth | pid=77041 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-09 08:55:36,911 | INFO     | company-ai.auth | pid=78202 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.100'
+2026-06-09 08:55:39,137 | INFO     | company-ai.auth | pid=78202 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-09 08:55:41,672 | INFO     | company-ai.auth | pid=78202 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-09 10:17:19,778 | INFO     | company-ai.auth | pid=78202 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.101'
+2026-06-09 10:17:22,674 | INFO     | company-ai.auth | pid=78202 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-09 10:17:26,422 | INFO     | company-ai.auth | pid=78202 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-09 11:04:19,214 | INFO     | company-ai.auth | pid=397 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-09 12:17:03,808 | INFO     | company-ai.auth | pid=397 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-09 12:17:06,043 | INFO     | company-ai.auth | pid=397 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-09 12:17:07,358 | INFO     | company-ai.auth | pid=397 | Department selected | email='paridhi.b@Companycard.in' dept='legal'
+2026-06-09 12:17:20,010 | INFO     | company-ai.auth | pid=397 | OTP issued | email='nitin.r@Companycard.in' ip='192.168.1.111'
+2026-06-09 12:17:25,870 | INFO     | company-ai.auth | pid=397 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-09 12:17:28,066 | INFO     | company-ai.auth | pid=397 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-09 12:51:29,396 | INFO     | company-ai.auth | pid=905 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.103'
+2026-06-09 12:51:31,502 | INFO     | company-ai.auth | pid=905 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-09 12:51:33,289 | INFO     | company-ai.auth | pid=905 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-09 12:55:01,519 | INFO     | company-ai.auth | pid=905 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement']
+2026-06-09 12:55:03,960 | INFO     | company-ai.auth | pid=905 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-10 04:43:00,717 | INFO     | company-ai.auth | pid=905 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.100'
+2026-06-10 04:43:05,876 | INFO     | company-ai.auth | pid=905 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-10 04:43:08,419 | INFO     | company-ai.auth | pid=905 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-10 05:33:45,391 | INFO     | company-ai.auth | pid=905 | OTP issued | email='nitin.r@Companycard.in' ip='192.168.1.111'
+2026-06-10 05:33:47,005 | INFO     | company-ai.auth | pid=905 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-10 05:33:49,096 | INFO     | company-ai.auth | pid=905 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-10 05:41:04,641 | INFO     | company-ai.auth | pid=2416 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-10 05:41:06,704 | INFO     | company-ai.auth | pid=2416 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-10 05:41:08,054 | INFO     | company-ai.auth | pid=2416 | Department selected | email='paridhi.b@Companycard.in' dept='legal'
+2026-06-10 05:41:19,012 | INFO     | company-ai.auth | pid=2416 | OTP issued | email='nitin.r@Companycard.in' ip='192.168.1.111'
+2026-06-10 05:41:20,337 | INFO     | company-ai.auth | pid=2416 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-10 05:41:22,712 | INFO     | company-ai.auth | pid=2416 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-10 05:41:50,402 | INFO     | company-ai.auth | pid=2416 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-10 05:41:53,875 | INFO     | company-ai.auth | pid=2416 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-10 05:41:57,011 | INFO     | company-ai.auth | pid=2416 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-10 05:43:41,433 | INFO     | company-ai.auth | pid=2416 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-10 05:43:43,141 | INFO     | company-ai.auth | pid=2416 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-10 05:43:45,253 | INFO     | company-ai.auth | pid=2416 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-10 05:46:46,266 | INFO     | company-ai.auth | pid=3015 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.100'
+2026-06-10 05:46:49,605 | INFO     | company-ai.auth | pid=3015 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-10 05:46:51,365 | INFO     | company-ai.auth | pid=3015 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-10 10:54:53,636 | INFO     | company-ai.auth | pid=4141 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.107'
+2026-06-10 10:54:58,037 | INFO     | company-ai.auth | pid=4141 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-10 10:55:01,023 | INFO     | company-ai.auth | pid=4141 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-10 11:15:34,322 | INFO     | company-ai.auth | pid=4141 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.107'
+2026-06-10 11:15:50,953 | INFO     | company-ai.auth | pid=4141 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-10 11:15:56,246 | INFO     | company-ai.auth | pid=4141 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-10 11:16:16,733 | INFO     | company-ai.auth | pid=4141 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.107'
+2026-06-10 11:16:29,067 | INFO     | company-ai.auth | pid=4141 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-10 11:17:02,047 | INFO     | company-ai.auth | pid=4141 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-11 05:45:35,227 | INFO     | company-ai.auth | pid=4141 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-11 05:45:36,849 | INFO     | company-ai.auth | pid=4141 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-11 05:45:44,496 | INFO     | company-ai.auth | pid=4141 | Departments selected | email='paridhi.b@Companycard.in' dept='security' depts=['security']
+2026-06-11 05:48:34,435 | INFO     | company-ai.auth | pid=4141 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-11 05:48:35,975 | INFO     | company-ai.auth | pid=4141 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-11 05:48:38,550 | INFO     | company-ai.auth | pid=4141 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-11 05:56:42,245 | INFO     | company-ai.auth | pid=8715 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-11 05:56:43,839 | INFO     | company-ai.auth | pid=8715 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-11 05:56:45,809 | INFO     | company-ai.auth | pid=8715 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-11 06:01:13,377 | INFO     | company-ai.auth | pid=9099 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-11 06:01:14,812 | INFO     | company-ai.auth | pid=9099 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-11 06:01:17,238 | INFO     | company-ai.auth | pid=9099 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-11 07:02:08,336 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.104'
+2026-06-11 07:02:12,395 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.104'
+2026-06-11 07:02:19,572 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.104'
+2026-06-11 07:02:22,064 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.104'
+2026-06-11 07:02:30,450 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.104'
+2026-06-11 07:02:50,178 | INFO     | company-ai.auth | pid=9576 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-11 07:02:59,986 | INFO     | company-ai.auth | pid=9576 | Departments selected | email='nitin.r@Companycard.in' dept='security' depts=['security', 'finance', 'hr', 'it', 'legal', 'operations', 'procurement']
+2026-06-11 07:05:20,475 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-11 07:05:23,084 | INFO     | company-ai.auth | pid=9576 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-11 07:05:32,290 | INFO     | company-ai.auth | pid=9576 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-11 07:05:41,484 | INFO     | company-ai.auth | pid=9576 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-11 07:05:53,115 | INFO     | company-ai.auth | pid=9576 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-11 07:06:16,037 | INFO     | company-ai.auth | pid=9576 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-11 07:12:26,092 | INFO     | company-ai.auth | pid=10620 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-11 07:12:29,139 | INFO     | company-ai.auth | pid=10620 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-11 07:12:33,248 | INFO     | company-ai.auth | pid=10620 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-11 07:34:32,400 | INFO     | company-ai.auth | pid=11953 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-11 07:34:45,047 | INFO     | company-ai.auth | pid=11953 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-11 07:34:51,732 | INFO     | company-ai.auth | pid=11953 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-11 07:35:01,577 | INFO     | company-ai.auth | pid=11953 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-11 07:35:14,058 | INFO     | company-ai.auth | pid=11953 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-11 07:36:08,795 | INFO     | company-ai.auth | pid=11953 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-11 08:06:08,500 | INFO     | company-ai.auth | pid=12889 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.104'
+2026-06-11 08:06:11,690 | INFO     | company-ai.auth | pid=12889 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-11 08:06:14,275 | INFO     | company-ai.auth | pid=12889 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-11 09:11:45,377 | INFO     | company-ai.auth | pid=20329 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.104'
+2026-06-11 09:11:47,815 | INFO     | company-ai.auth | pid=20329 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-11 09:11:50,130 | INFO     | company-ai.auth | pid=20329 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-11 12:49:15,581 | INFO     | company-ai.auth | pid=20329 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-11 12:49:18,014 | INFO     | company-ai.auth | pid=20329 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-11 12:49:28,932 | INFO     | company-ai.auth | pid=20329 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-12 09:00:56,170 | INFO     | company-ai.auth | pid=20329 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-12 09:00:58,051 | INFO     | company-ai.auth | pid=20329 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-12 09:01:00,907 | INFO     | company-ai.auth | pid=20329 | Departments selected | email='paridhi.b@Companycard.in' dept='security' depts=['security']
+2026-06-12 13:09:48,052 | INFO     | company-ai.auth | pid=24270 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-12 13:09:50,129 | INFO     | company-ai.auth | pid=24270 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-12 13:09:52,291 | INFO     | company-ai.auth | pid=24270 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-12 13:13:46,967 | INFO     | company-ai.auth | pid=24270 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-12 13:13:48,929 | INFO     | company-ai.auth | pid=24270 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-12 13:13:51,356 | INFO     | company-ai.auth | pid=24270 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-12 13:16:31,478 | INFO     | company-ai.auth | pid=24270 | OTP issued | email='nitin.r@Companycard.in' ip='192.168.1.111'
+2026-06-12 13:16:33,515 | INFO     | company-ai.auth | pid=24270 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-12 13:16:35,922 | INFO     | company-ai.auth | pid=24270 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-12 13:18:56,060 | INFO     | company-ai.auth | pid=24270 | OTP issued | email='paridhi@Company.in' ip='192.168.1.111'
+2026-06-12 13:19:00,263 | INFO     | company-ai.auth | pid=24270 | OTP verified | email='paridhi@Company.in'
+2026-06-12 13:19:02,664 | INFO     | company-ai.auth | pid=24270 | Department selected | email='paridhi@Company.in' dept='security'
+2026-06-14 02:48:32,980 | INFO     | company-ai.auth | pid=25970 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.100'
+2026-06-14 02:48:35,888 | INFO     | company-ai.auth | pid=25970 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-14 02:48:39,230 | INFO     | company-ai.auth | pid=25970 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-14 16:15:53,219 | INFO     | company-ai.auth | pid=25970 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.100'
+2026-06-14 16:15:56,999 | INFO     | company-ai.auth | pid=25970 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-14 16:15:59,711 | INFO     | company-ai.auth | pid=25970 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-15 04:21:54,996 | INFO     | company-ai.auth | pid=25970 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.101'
+2026-06-15 04:21:59,284 | INFO     | company-ai.auth | pid=25970 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-15 04:22:04,723 | INFO     | company-ai.auth | pid=25970 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-15 05:05:57,181 | INFO     | company-ai.auth | pid=27884 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-15 05:05:58,787 | INFO     | company-ai.auth | pid=27884 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-15 05:06:01,603 | INFO     | company-ai.auth | pid=27884 | Departments selected | email='paridhi.b@Companycard.in' dept='security' depts=['security']
+2026-06-15 05:33:53,648 | INFO     | company-ai.auth | pid=27884 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.103'
+2026-06-15 05:33:58,789 | INFO     | company-ai.auth | pid=27884 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-15 05:34:01,030 | INFO     | company-ai.auth | pid=27884 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-15 05:51:05,167 | INFO     | company-ai.auth | pid=27884 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-15 05:51:07,046 | INFO     | company-ai.auth | pid=27884 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-15 05:51:10,110 | INFO     | company-ai.auth | pid=27884 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-15 06:11:29,963 | INFO     | company-ai.auth | pid=27884 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-15 06:11:31,441 | INFO     | company-ai.auth | pid=27884 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-15 06:11:33,442 | INFO     | company-ai.auth | pid=27884 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-15 06:39:41,373 | INFO     | company-ai.auth | pid=27884 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-15 06:39:42,825 | INFO     | company-ai.auth | pid=27884 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-15 06:39:44,758 | INFO     | company-ai.auth | pid=27884 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-15 06:41:17,658 | INFO     | company-ai.auth | pid=27884 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-15 06:41:18,929 | INFO     | company-ai.auth | pid=27884 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-15 06:41:20,925 | INFO     | company-ai.auth | pid=27884 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-15 07:18:34,563 | INFO     | company-ai.auth | pid=30038 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-15 07:18:36,152 | INFO     | company-ai.auth | pid=30038 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-15 07:18:39,530 | INFO     | company-ai.auth | pid=30038 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-15 11:33:49,482 | INFO     | company-ai.auth | pid=30336 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.102'
+2026-06-15 11:33:52,855 | INFO     | company-ai.auth | pid=30336 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-15 11:33:55,207 | INFO     | company-ai.auth | pid=30336 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-15 14:09:52,160 | INFO     | company-ai.auth | pid=30336 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.102'
+2026-06-15 14:10:01,435 | INFO     | company-ai.auth | pid=30336 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-15 14:10:03,491 | INFO     | company-ai.auth | pid=30336 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 05:34:56,389 | INFO     | company-ai.auth | pid=30336 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-16 05:34:57,976 | INFO     | company-ai.auth | pid=30336 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-16 05:35:01,833 | INFO     | company-ai.auth | pid=30336 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 06:01:08,636 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-16 06:01:10,149 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-16 06:01:12,318 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 06:04:28,238 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-16 06:04:29,897 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-16 06:04:32,032 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 06:09:11,736 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-16 06:09:13,180 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-16 06:09:15,302 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 06:10:37,050 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-16 06:10:38,456 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-16 06:10:42,146 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 06:14:26,818 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-16 06:14:28,316 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-16 06:14:30,391 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 06:20:21,049 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-16 06:20:22,325 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-16 06:20:24,340 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 06:22:29,734 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-16 06:22:31,706 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-16 06:22:33,845 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 06:24:40,537 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-16 06:24:45,695 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-16 06:24:47,581 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 06:27:54,914 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-16 06:27:56,330 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-16 06:27:58,658 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 06:29:56,547 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='paridhi.b@Companycard.in' ip='127.0.0.1'
+2026-06-16 06:29:57,942 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-16 06:30:00,314 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 07:11:49,716 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.104'
+2026-06-16 07:11:52,710 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-16 07:11:55,805 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 08:19:33,541 | INFO     | company-ai.auth | pid=32095 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.104'
+2026-06-16 08:19:35,757 | INFO     | company-ai.auth | pid=32095 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-16 08:19:37,405 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 08:23:00,817 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='nitin.r@Companycard.in' dept='procurement' depts=['procurement']
+2026-06-16 08:30:20,530 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='nitin.r@Companycard.in' dept='procurement' depts=['procurement', 'finance', 'it', 'hr', 'legal', 'operations']
+2026-06-16 08:30:27,367 | INFO     | company-ai.auth | pid=32095 | Departments selected | email='nitin.r@Companycard.in' dept='procurement' depts=['procurement', 'finance', 'it', 'hr', 'legal', 'operations', 'security']
+2026-06-16 08:39:10,266 | INFO     | company-ai.auth | pid=33216 | OTP issued | email='paridhi.b@Companycard.in' ip='10.212.134.104'
+2026-06-16 08:39:13,973 | INFO     | company-ai.auth | pid=33216 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-16 08:39:15,553 | INFO     | company-ai.auth | pid=33216 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 08:39:50,374 | INFO     | company-ai.auth | pid=33216 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.104'
+2026-06-16 08:39:52,650 | INFO     | company-ai.auth | pid=33216 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-16 08:39:54,071 | INFO     | company-ai.auth | pid=33216 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-16 08:40:15,816 | INFO     | company-ai.auth | pid=33216 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement']
+2026-06-16 08:40:24,054 | INFO     | company-ai.auth | pid=33216 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance']
+2026-06-16 08:40:50,332 | INFO     | company-ai.auth | pid=33216 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'legal', 'it', 'operations']
+2026-06-16 08:45:20,368 | INFO     | company-ai.auth | pid=33348 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'legal', 'it', 'operations', 'procurement', 'security']
+2026-06-17 05:02:50,311 | INFO     | company-ai.auth | pid=33348 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.102'
+2026-06-17 05:02:53,588 | INFO     | company-ai.auth | pid=33348 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-17 05:03:02,568 | INFO     | company-ai.auth | pid=33348 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
 2026-06-17 11:36:19,974 | INFO     | company-ai.auth | pid=22132 | OTP issued | email='nitin.r@omnciard.in' ip='127.0.0.1'
 2026-06-17 11:36:22,165 | INFO     | company-ai.auth | pid=22132 | OTP verified | email='nitin.r@omnciard.in'
-2026-06-17 11:36:35,883 | INFO     | company-ai.auth | pid=22132 | OTP issued | email='nitin.r@omnicard.in' ip='127.0.0.1'
-2026-06-17 11:36:38,091 | INFO     | company-ai.auth | pid=22132 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-17 11:36:39,398 | INFO     | company-ai.auth | pid=22132 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-17 11:36:35,883 | INFO     | company-ai.auth | pid=22132 | OTP issued | email='nitin.r@Companycard.in' ip='127.0.0.1'
+2026-06-17 11:36:38,091 | INFO     | company-ai.auth | pid=22132 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-17 11:36:39,398 | INFO     | company-ai.auth | pid=22132 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
 2026-06-17 11:42:08,030 | INFO     | company-ai.auth | pid=26632 | OTP issued | email='nitin.r@omnciard.in' ip='127.0.0.1'
 2026-06-17 11:42:10,221 | INFO     | company-ai.auth | pid=26632 | OTP verified | email='nitin.r@omnciard.in'
 2026-06-17 11:42:11,102 | INFO     | company-ai.auth | pid=26632 | Department selected | email='nitin.r@omnciard.in' dept='it'
 2026-06-17 11:42:32,905 | INFO     | company-ai.auth | pid=26632 | Department selected | email='nitin.r@omnciard.in' dept='it'
-2026-06-17 11:50:55,242 | INFO     | company-ai.auth | pid=3088 | OTP issued | email='nitin.r@omnicard.in' ip='127.0.0.1'
-2026-06-17 11:50:57,312 | INFO     | company-ai.auth | pid=3088 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-17 11:50:58,621 | INFO     | company-ai.auth | pid=3088 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-17 12:17:26,015 | INFO     | company-ai.auth | pid=9780 | OTP issued | email='nitin.r@omnicard.in' ip='127.0.0.1'
-2026-06-17 12:17:28,792 | INFO     | company-ai.auth | pid=9780 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-17 12:17:30,901 | INFO     | company-ai.auth | pid=9780 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-17 14:53:57,288 | INFO     | company-ai.auth | pid=26064 | OTP issued | email='nitin.r@omnicard.in' ip='127.0.0.1'
-2026-06-17 14:53:59,900 | INFO     | company-ai.auth | pid=26064 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-17 14:54:01,310 | INFO     | company-ai.auth | pid=26064 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-17 12:53:07,953 | INFO     | company-ai.auth | pid=51364 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.101'
-2026-06-17 12:53:10,732 | INFO     | company-ai.auth | pid=51364 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-17 12:53:13,171 | INFO     | company-ai.auth | pid=51364 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-17 13:03:11,726 | INFO     | company-ai.auth | pid=51364 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-17 13:03:13,980 | INFO     | company-ai.auth | pid=51364 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-17 13:03:16,349 | INFO     | company-ai.auth | pid=51364 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-17 14:18:27,096 | INFO     | company-ai.auth | pid=52121 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.101'
-2026-06-17 14:18:30,515 | INFO     | company-ai.auth | pid=52121 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-17 14:18:36,392 | INFO     | company-ai.auth | pid=52121 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-18 06:08:58,564 | INFO     | company-ai.auth | pid=398 | OTP issued | email='nitin.r@omnicard.in' ip='192.168.1.111'
-2026-06-18 06:08:59,839 | INFO     | company-ai.auth | pid=398 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-18 06:09:01,926 | INFO     | company-ai.auth | pid=398 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-18 06:11:42,571 | INFO     | company-ai.auth | pid=398 | OTP issued | email='nitin.r@omnicard.in' ip='192.168.1.111'
-2026-06-18 06:11:44,056 | INFO     | company-ai.auth | pid=398 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-18 06:11:46,121 | INFO     | company-ai.auth | pid=398 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-18 06:14:03,463 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.104'
-2026-06-18 06:14:06,741 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-18 06:14:08,472 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-18 06:27:51,232 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-18 06:27:52,688 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-18 06:27:55,034 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-18 06:29:12,162 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi.b@omnicard.in' dept='legal' depts=['legal']
-2026-06-18 06:35:40,928 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='pari@omni.in' ip='192.168.1.111'
-2026-06-18 06:35:42,632 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='pari@omni.in'
-2026-06-18 06:35:44,125 | INFO     | company-ai.auth | pid=1986 | Department selected | email='pari@omni.in' dept='procurement'
-2026-06-18 06:52:48,898 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='nitin.r@omnicard.in' dept='procurement' depts=['procurement']
-2026-06-18 07:01:14,748 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='nitin.r@omnicard.in' dept='security' depts=['security']
-2026-06-18 07:16:42,238 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='paridhi@omni.in' ip='192.168.1.111'
-2026-06-18 07:16:43,617 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='paridhi@omni.in'
-2026-06-18 07:16:56,333 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='pari@omni.in' ip='192.168.1.111'
-2026-06-18 07:16:57,892 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='pari@omni.in'
-2026-06-18 07:16:59,751 | INFO     | company-ai.auth | pid=1986 | Department selected | email='pari@omni.in' dept='procurement'
-2026-06-18 07:17:07,456 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-18 07:17:08,790 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-18 07:17:10,755 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-18 07:18:53,943 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='paridhi@omni.in' ip='192.168.1.111'
-2026-06-18 07:18:55,126 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='paridhi@omni.in'
-2026-06-18 07:18:58,920 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi@omni.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-18 07:20:37,725 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-18 07:21:05,496 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-18 07:21:07,848 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-18 07:34:52,647 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi@omni.in' dept='finance' depts=['finance', 'legal', 'security', 'hr']
-2026-06-18 09:35:04,624 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='paridhi.b@omnicard.in' ip='192.168.1.111'
-2026-06-18 09:35:07,084 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-18 09:35:09,704 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-19 04:50:45,136 | INFO     | company-ai.auth | pid=3606 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.103'
-2026-06-19 04:50:47,969 | INFO     | company-ai.auth | pid=3606 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-19 04:50:50,470 | INFO     | company-ai.auth | pid=3606 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-19 07:40:51,719 | INFO     | company-ai.auth | pid=3606 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.104'
-2026-06-19 07:40:54,231 | INFO     | company-ai.auth | pid=3606 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-19 07:40:56,494 | INFO     | company-ai.auth | pid=3606 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-19 07:41:35,794 | INFO     | company-ai.auth | pid=3606 | Departments selected | email='nitin.r@omnicard.in' dept='hr' depts=['hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-19 07:42:14,369 | INFO     | company-ai.auth | pid=3606 | Departments selected | email='nitin.r@omnicard.in' dept='hr' depts=['hr', 'it', 'legal', 'operations', 'procurement', 'security', 'finance']
-2026-06-19 07:44:57,730 | INFO     | company-ai.auth | pid=3606 | OTP issued | email='paridhi.b@omnicard.in' ip='10.212.134.104'
-2026-06-19 07:44:59,903 | INFO     | company-ai.auth | pid=3606 | OTP verified | email='paridhi.b@omnicard.in'
-2026-06-19 07:45:02,037 | INFO     | company-ai.auth | pid=3606 | Departments selected | email='paridhi.b@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
-2026-06-19 07:53:31,935 | INFO     | company-ai.auth | pid=3606 | OTP issued | email='nitin.r@omnicard.in' ip='10.212.134.104'
-2026-06-19 07:53:35,648 | INFO     | company-ai.auth | pid=3606 | OTP verified | email='nitin.r@omnicard.in'
-2026-06-19 07:53:37,190 | INFO     | company-ai.auth | pid=3606 | Departments selected | email='nitin.r@omnicard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-17 11:50:55,242 | INFO     | company-ai.auth | pid=3088 | OTP issued | email='nitin.r@Companycard.in' ip='127.0.0.1'
+2026-06-17 11:50:57,312 | INFO     | company-ai.auth | pid=3088 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-17 11:50:58,621 | INFO     | company-ai.auth | pid=3088 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-17 12:17:26,015 | INFO     | company-ai.auth | pid=9780 | OTP issued | email='nitin.r@Companycard.in' ip='127.0.0.1'
+2026-06-17 12:17:28,792 | INFO     | company-ai.auth | pid=9780 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-17 12:17:30,901 | INFO     | company-ai.auth | pid=9780 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-17 14:53:57,288 | INFO     | company-ai.auth | pid=26064 | OTP issued | email='nitin.r@Companycard.in' ip='127.0.0.1'
+2026-06-17 14:53:59,900 | INFO     | company-ai.auth | pid=26064 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-17 14:54:01,310 | INFO     | company-ai.auth | pid=26064 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-17 12:53:07,953 | INFO     | company-ai.auth | pid=51364 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.101'
+2026-06-17 12:53:10,732 | INFO     | company-ai.auth | pid=51364 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-17 12:53:13,171 | INFO     | company-ai.auth | pid=51364 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-17 13:03:11,726 | INFO     | company-ai.auth | pid=51364 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-17 13:03:13,980 | INFO     | company-ai.auth | pid=51364 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-17 13:03:16,349 | INFO     | company-ai.auth | pid=51364 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-17 14:18:27,096 | INFO     | company-ai.auth | pid=52121 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.101'
+2026-06-17 14:18:30,515 | INFO     | company-ai.auth | pid=52121 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-17 14:18:36,392 | INFO     | company-ai.auth | pid=52121 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-18 06:08:58,564 | INFO     | company-ai.auth | pid=398 | OTP issued | email='nitin.r@Companycard.in' ip='192.168.1.111'
+2026-06-18 06:08:59,839 | INFO     | company-ai.auth | pid=398 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-18 06:09:01,926 | INFO     | company-ai.auth | pid=398 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-18 06:11:42,571 | INFO     | company-ai.auth | pid=398 | OTP issued | email='nitin.r@Companycard.in' ip='192.168.1.111'
+2026-06-18 06:11:44,056 | INFO     | company-ai.auth | pid=398 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-18 06:11:46,121 | INFO     | company-ai.auth | pid=398 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-18 06:14:03,463 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.104'
+2026-06-18 06:14:06,741 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-18 06:14:08,472 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-18 06:27:51,232 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-18 06:27:52,688 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-18 06:27:55,034 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-18 06:29:12,162 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi.b@Companycard.in' dept='legal' depts=['legal']
+2026-06-18 06:35:40,928 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='pari@Company.in' ip='192.168.1.111'
+2026-06-18 06:35:42,632 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='pari@Company.in'
+2026-06-18 06:35:44,125 | INFO     | company-ai.auth | pid=1986 | Department selected | email='pari@Company.in' dept='procurement'
+2026-06-18 06:52:48,898 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='nitin.r@Companycard.in' dept='procurement' depts=['procurement']
+2026-06-18 07:01:14,748 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='nitin.r@Companycard.in' dept='security' depts=['security']
+2026-06-18 07:16:42,238 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='paridhi@Company.in' ip='192.168.1.111'
+2026-06-18 07:16:43,617 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='paridhi@Company.in'
+2026-06-18 07:16:56,333 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='pari@Company.in' ip='192.168.1.111'
+2026-06-18 07:16:57,892 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='pari@Company.in'
+2026-06-18 07:16:59,751 | INFO     | company-ai.auth | pid=1986 | Department selected | email='pari@Company.in' dept='procurement'
+2026-06-18 07:17:07,456 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-18 07:17:08,790 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-18 07:17:10,755 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-18 07:18:53,943 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='paridhi@Company.in' ip='192.168.1.111'
+2026-06-18 07:18:55,126 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='paridhi@Company.in'
+2026-06-18 07:18:58,920 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi@Company.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-18 07:20:37,725 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-18 07:21:05,496 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-18 07:21:07,848 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-18 07:34:52,647 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi@Company.in' dept='finance' depts=['finance', 'legal', 'security', 'hr']
+2026-06-18 09:35:04,624 | INFO     | company-ai.auth | pid=1986 | OTP issued | email='paridhi.b@Companycard.in' ip='192.168.1.111'
+2026-06-18 09:35:07,084 | INFO     | company-ai.auth | pid=1986 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-18 09:35:09,704 | INFO     | company-ai.auth | pid=1986 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-19 04:50:45,136 | INFO     | company-ai.auth | pid=3606 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.103'
+2026-06-19 04:50:47,969 | INFO     | company-ai.auth | pid=3606 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-19 04:50:50,470 | INFO     | company-ai.auth | pid=3606 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-19 07:40:51,719 | INFO     | company-ai.auth | pid=3606 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.104'
+2026-06-19 07:40:54,231 | INFO     | company-ai.auth | pid=3606 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-19 07:40:56,494 | INFO     | company-ai.auth | pid=3606 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-19 07:41:35,794 | INFO     | company-ai.auth | pid=3606 | Departments selected | email='nitin.r@Companycard.in' dept='hr' depts=['hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-19 07:42:14,369 | INFO     | company-ai.auth | pid=3606 | Departments selected | email='nitin.r@Companycard.in' dept='hr' depts=['hr', 'it', 'legal', 'operations', 'procurement', 'security', 'finance']
+2026-06-19 07:44:57,730 | INFO     | company-ai.auth | pid=3606 | OTP issued | email='paridhi.b@Companycard.in' ip='10.212.134.104'
+2026-06-19 07:44:59,903 | INFO     | company-ai.auth | pid=3606 | OTP verified | email='paridhi.b@Companycard.in'
+2026-06-19 07:45:02,037 | INFO     | company-ai.auth | pid=3606 | Departments selected | email='paridhi.b@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']
+2026-06-19 07:53:31,935 | INFO     | company-ai.auth | pid=3606 | OTP issued | email='nitin.r@Companycard.in' ip='10.212.134.104'
+2026-06-19 07:53:35,648 | INFO     | company-ai.auth | pid=3606 | OTP verified | email='nitin.r@Companycard.in'
+2026-06-19 07:53:37,190 | INFO     | company-ai.auth | pid=3606 | Departments selected | email='nitin.r@Companycard.in' dept='finance' depts=['finance', 'hr', 'it', 'legal', 'operations', 'procurement', 'security']

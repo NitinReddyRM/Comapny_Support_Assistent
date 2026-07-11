@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     )
     print("model_config:",model_config)
     # ----- Application -----
-    APP_NAME: str = "Omni AI Assistant"
+    APP_NAME: str = "Company AI Assistant"
     APP_ENV: str = "development"
     APP_HOST: str = "0.0.0.0"
     APP_PORT: int = 8000
@@ -37,8 +37,8 @@ class Settings(BaseSettings):
     RATE_LIMIT_PER_MINUTE: int = 60
 
     # ----- Database -----
-    DATABASE_URL: str = "sqlite+aiosqlite:///./omniasset.db"
-    SYNC_DATABASE_URL: str = "sqlite:///./omniasset.db"
+    DATABASE_URL: str = "sqlite+aiosqlite:///./Companyasset.db"
+    SYNC_DATABASE_URL: str = "sqlite:///./Companyasset.db"
 
     # ----- AWS -----
     AWS_REGION: str = "us-east-1"

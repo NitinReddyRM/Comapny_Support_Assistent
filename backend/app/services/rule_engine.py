@@ -27,7 +27,7 @@ import re
 from dataclasses import dataclass, field
 from typing import Callable, List, Optional
 
-ASSISTANT_NAME = "Omni AI Assistant"
+ASSISTANT_NAME = "Company AI Assistant"
 
 
 # ---------------------------------------------------------------------------

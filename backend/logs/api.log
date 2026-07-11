@@ -1,4 +1,4 @@
-2026-06-08 06:51:31,738 | INFO     | company-ai.api | pid=66720 | app started | env='development' name='Omni AI Assistant'
+2026-06-08 06:51:31,738 | INFO     | company-ai.api | pid=66720 | app started | env='development' name='Company AI Assistant'
 2026-06-08 06:51:47,868 | INFO     | company-ai.api | pid=66720 | request | rid='3c9d388a59f6' method='GET' path='/api/v1/auth/me' status=200 latency_ms=45 ip='10.212.134.102'
 2026-06-08 06:51:48,264 | INFO     | company-ai.api | pid=66720 | request | rid='5e418fa36e35' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=13 ip='10.212.134.102'
 2026-06-08 06:51:48,373 | INFO     | company-ai.api | pid=66720 | request | rid='822bc395bd23' method='GET' path='/api/v1/chat/suggestions/seed' status=200 latency_ms=31 ip='10.212.134.102'
@@ -294,9 +294,9 @@
 2026-06-09 05:00:55,937 | INFO     | company-ai.api | pid=66720 | request | rid='ce2c84228ed9' method='GET' path='/api/v1/admin/departments' status=200 latency_ms=6 ip='10.212.134.102'
 2026-06-09 05:00:56,130 | INFO     | company-ai.api | pid=66720 | request | rid='ae89380ffe26' method='GET' path='/api/v1/admin/kb/documents' status=200 latency_ms=95 ip='10.212.134.102'
 2026-06-09 05:01:28,913 | INFO     | company-ai.api | pid=66720 | app stopped
-2026-06-09 05:01:36,167 | INFO     | company-ai.api | pid=69391 | app started | env='development' name='Omni AI Assistant'
+2026-06-09 05:01:36,167 | INFO     | company-ai.api | pid=69391 | app started | env='development' name='Company AI Assistant'
 2026-06-09 05:01:39,078 | INFO     | company-ai.api | pid=69391 | app stopped
-2026-06-09 05:01:40,985 | INFO     | company-ai.api | pid=69411 | app started | env='development' name='Omni AI Assistant'
+2026-06-09 05:01:40,985 | INFO     | company-ai.api | pid=69411 | app started | env='development' name='Company AI Assistant'
 2026-06-09 05:02:19,004 | INFO     | company-ai.api | pid=69411 | request | rid='855a899c9e2a' method='GET' path='/admin.html' status=304 latency_ms=9 ip='10.212.134.102'
 2026-06-09 05:02:19,097 | INFO     | company-ai.api | pid=69411 | request | rid='c38e1b4cc5aa' method='GET' path='/js/admin.js' status=304 latency_ms=1 ip='10.212.134.102'
 2026-06-09 05:02:19,251 | INFO     | company-ai.api | pid=69411 | request | rid='2cee101ef012' method='GET' path='/api/v1/analytics/overview' status=200 latency_ms=62 ip='10.212.134.102'
@@ -379,7 +379,7 @@
 2026-06-09 05:18:20,989 | INFO     | company-ai.api | pid=69411 | request | rid='43ca71247fe6' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=132 ip='10.212.134.102'
 2026-06-09 05:18:20,992 | INFO     | company-ai.api | pid=69411 | request | rid='e069a281f267' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=176 ip='10.212.134.102'
 2026-06-09 05:18:38,765 | INFO     | company-ai.api | pid=69411 | request | rid='f12755ce6d79' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=10 ip='10.212.134.102'
-2026-06-09 05:19:11,412 | INFO     | company-ai.api | pid=69721 | app started | env='development' name='Omni AI Assistant'
+2026-06-09 05:19:11,412 | INFO     | company-ai.api | pid=69721 | app started | env='development' name='Company AI Assistant'
 2026-06-09 05:19:23,435 | INFO     | company-ai.api | pid=69721 | request | rid='27bd11ed6c04' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=34 ip='10.212.134.102'
 2026-06-09 05:19:59,272 | INFO     | company-ai.api | pid=69721 | request | rid='56347cc59bb5' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=17 ip='10.212.134.102'
 2026-06-09 05:19:59,280 | INFO     | company-ai.api | pid=69721 | request | rid='e648fa702a2c' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=20 ip='10.212.134.102'
@@ -425,7 +425,7 @@
 2026-06-09 05:44:07,528 | INFO     | company-ai.api | pid=69721 | request | rid='341c36b7584f' method='GET' path='/api/v1/auth/departments' status=200 latency_ms=26 ip='10.212.134.102'
 2026-06-09 05:44:07,790 | INFO     | company-ai.api | pid=69721 | request | rid='a729ec14a437' method='GET' path='/api/v1/chat/facets' status=200 latency_ms=9 ip='10.212.134.102'
 2026-06-09 08:30:16,202 | INFO     | company-ai.api | pid=69721 | app stopped
-2026-06-09 08:30:18,363 | INFO     | company-ai.api | pid=77041 | app started | env='development' name='Omni AI Assistant'
+2026-06-09 08:30:18,363 | INFO     | company-ai.api | pid=77041 | app started | env='development' name='Company AI Assistant'
 2026-06-09 08:30:54,558 | INFO     | company-ai.api | pid=77041 | request | rid='465550894b95' method='GET' path='/' status=200 latency_ms=9 ip='10.212.134.100'
 2026-06-09 08:30:54,664 | INFO     | company-ai.api | pid=77041 | request | rid='fa5e19baca9d' method='GET' path='/css/main.css' status=200 latency_ms=1 ip='10.212.134.100'
 2026-06-09 08:30:54,801 | INFO     | company-ai.api | pid=77041 | request | rid='1e1da79f9696' method='GET' path='/js/icons.js' status=200 latency_ms=2 ip='10.212.134.100'
@@ -533,7 +533,7 @@
 2026-06-09 08:53:43,758 | INFO     | company-ai.api | pid=77041 | request | rid='e0b78af415e2' method='GET' path='/api/v1/auth/departments' status=200 latency_ms=39 ip='10.212.134.100'
 2026-06-09 08:53:43,882 | INFO     | company-ai.api | pid=77041 | request | rid='c46ab5b41ca2' method='GET' path='/api/v1/chat/facets' status=200 latency_ms=11 ip='10.212.134.100'
 2026-06-09 08:53:51,529 | INFO     | company-ai.api | pid=77041 | app stopped
-2026-06-09 08:53:54,897 | INFO     | company-ai.api | pid=78202 | app started | env='development' name='Omni AI Assistant'
+2026-06-09 08:53:54,897 | INFO     | company-ai.api | pid=78202 | app started | env='development' name='Company AI Assistant'
 2026-06-09 08:53:55,522 | INFO     | company-ai.api | pid=78202 | request | rid='69169e529df9' method='GET' path='/chat.html' status=304 latency_ms=9 ip='10.212.134.100'
 2026-06-09 08:53:55,732 | INFO     | company-ai.api | pid=78202 | request | rid='e4ed5ddce27a' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=39 ip='10.212.134.100'
 2026-06-09 08:53:55,816 | INFO     | company-ai.api | pid=78202 | request | rid='5aa95f7805f2' method='GET' path='/api/v1/chat/models' status=200 latency_ms=26 ip='10.212.134.100'
@@ -621,7 +621,7 @@
 2026-06-09 10:24:47,103 | INFO     | company-ai.api | pid=78202 | request | rid='49e9f2212a77' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=270441 ip='10.212.134.101'
 2026-06-09 10:24:51,172 | INFO     | company-ai.api | pid=78202 | request | rid='7533cccb2505' method='GET' path='/api/v1/admin/audit' status=200 latency_ms=10439 ip='10.212.134.101'
 2026-06-09 10:24:54,555 | INFO     | company-ai.api | pid=78202 | request | rid='0d701d20e556' method='GET' path='/admin.html' status=304 latency_ms=823 ip='10.212.134.101'
-2026-06-09 10:42:07,620 | INFO     | company-ai.api | pid=397 | app started | env='development' name='Omni AI Assistant'
+2026-06-09 10:42:07,620 | INFO     | company-ai.api | pid=397 | app started | env='development' name='Company AI Assistant'
 2026-06-09 10:54:34,366 | INFO     | company-ai.api | pid=397 | request | rid='370dfaf873bc' method='GET' path='/' status=200 latency_ms=12 ip='10.212.134.101'
 2026-06-09 10:54:34,553 | INFO     | company-ai.api | pid=397 | request | rid='38f213ac2eb4' method='GET' path='/api/v1/auth/me' status=200 latency_ms=46 ip='10.212.134.101'
 2026-06-09 10:54:34,653 | INFO     | company-ai.api | pid=397 | request | rid='a650fd4e7f14' method='GET' path='/chat.html' status=200 latency_ms=1 ip='10.212.134.101'
@@ -730,9 +730,9 @@
 2026-06-09 12:17:29,492 | INFO     | company-ai.api | pid=397 | request | rid='200f4a02903e' method='GET' path='/api/v1/admin/model' status=200 latency_ms=8 ip='192.168.1.111'
 2026-06-09 12:17:30,985 | INFO     | company-ai.api | pid=397 | request | rid='5e203f865d45' method='GET' path='/api/v1/admin/departments' status=200 latency_ms=103 ip='192.168.1.111'
 2026-06-09 12:17:31,054 | INFO     | company-ai.api | pid=397 | request | rid='a0569c85a421' method='GET' path='/api/v1/admin/users' status=200 latency_ms=26 ip='192.168.1.111'
-2026-06-09 12:41:08,645 | INFO     | company-ai.api | pid=397 | app started | env='development' name='Omni AI Assistant'
+2026-06-09 12:41:08,645 | INFO     | company-ai.api | pid=397 | app started | env='development' name='Company AI Assistant'
 2026-06-09 12:51:15,845 | INFO     | company-ai.api | pid=397 | app stopped
-2026-06-09 12:51:17,767 | INFO     | company-ai.api | pid=905 | app started | env='development' name='Omni AI Assistant'
+2026-06-09 12:51:17,767 | INFO     | company-ai.api | pid=905 | app started | env='development' name='Company AI Assistant'
 2026-06-09 12:51:26,750 | INFO     | company-ai.api | pid=905 | request | rid='acbeb7b159c1' method='GET' path='/index.html' status=304 latency_ms=10 ip='10.212.134.103'
 2026-06-09 12:51:29,397 | INFO     | company-ai.api | pid=905 | request | rid='195f8c50aaf3' method='POST' path='/api/v1/auth/otp/request' status=204 latency_ms=458 ip='10.212.134.103'
 2026-06-09 12:51:31,504 | INFO     | company-ai.api | pid=905 | request | rid='83654c2841d9' method='POST' path='/api/v1/auth/otp/verify' status=200 latency_ms=45 ip='10.212.134.103'
@@ -873,7 +873,7 @@
 2026-06-10 05:35:12,684 | INFO     | company-ai.api | pid=905 | request | rid='42434b1c2dc7' method='GET' path='/api/v1/chat/facets' status=200 latency_ms=8 ip='192.168.1.111'
 2026-06-10 05:35:14,962 | INFO     | company-ai.api | pid=905 | request | rid='7c483d8b71c7' method='GET' path='/api/v1/chat/sessions/14' status=200 latency_ms=11 ip='192.168.1.111'
 2026-06-10 05:40:31,114 | INFO     | company-ai.api | pid=905 | app stopped
-2026-06-10 05:40:33,177 | INFO     | company-ai.api | pid=2416 | app started | env='development' name='Omni AI Assistant'
+2026-06-10 05:40:33,177 | INFO     | company-ai.api | pid=2416 | app started | env='development' name='Company AI Assistant'
 2026-06-10 05:40:36,173 | INFO     | company-ai.api | pid=2416 | request | rid='d40c87301168' method='GET' path='/chat.html' status=304 latency_ms=8 ip='192.168.1.111'
 2026-06-10 05:40:39,063 | INFO     | company-ai.api | pid=2416 | request | rid='fcb012549587' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=54 ip='192.168.1.111'
 2026-06-10 05:40:39,068 | INFO     | company-ai.api | pid=2416 | request | rid='c0f6691dc6af' method='GET' path='/api/v1/chat/models' status=200 latency_ms=49 ip='192.168.1.111'
@@ -1178,7 +1178,7 @@
 2026-06-10 05:44:55,487 | INFO     | company-ai.api | pid=2416 | request | rid='7c1aad093544' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=8 ip='192.168.1.111'
 2026-06-10 05:44:55,559 | INFO     | company-ai.api | pid=2416 | request | rid='1f987d9449dc' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=9 ip='192.168.1.111'
 2026-06-10 05:46:34,699 | INFO     | company-ai.api | pid=2416 | app stopped
-2026-06-10 05:46:36,650 | INFO     | company-ai.api | pid=3015 | app started | env='development' name='Omni AI Assistant'
+2026-06-10 05:46:36,650 | INFO     | company-ai.api | pid=3015 | app started | env='development' name='Company AI Assistant'
 2026-06-10 05:46:43,702 | INFO     | company-ai.api | pid=3015 | request | rid='5f95edd0b077' method='GET' path='/chat.html' status=304 latency_ms=8 ip='10.212.134.100'
 2026-06-10 05:46:46,267 | INFO     | company-ai.api | pid=3015 | request | rid='1513eee29abf' method='POST' path='/api/v1/auth/otp/request' status=204 latency_ms=414 ip='10.212.134.100'
 2026-06-10 05:46:49,606 | INFO     | company-ai.api | pid=3015 | request | rid='af13188107fd' method='POST' path='/api/v1/auth/otp/verify' status=200 latency_ms=32 ip='10.212.134.100'
@@ -1200,7 +1200,7 @@
 2026-06-10 05:47:16,767 | INFO     | company-ai.api | pid=3015 | request | rid='09bb548cbff3' method='GET' path='/api/v1/auth/departments' status=200 latency_ms=53 ip='192.168.1.111'
 2026-06-10 05:47:16,870 | INFO     | company-ai.api | pid=3015 | request | rid='2cc2160d6d2d' method='GET' path='/api/v1/chat/facets' status=200 latency_ms=20 ip='192.168.1.111'
 2026-06-10 05:47:21,004 | INFO     | company-ai.api | pid=3015 | request | rid='14f3d055bca7' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=17 ip='192.168.1.111'
-2026-06-10 05:47:33,827 | INFO     | company-ai.api | pid=3075 | app started | env='development' name='Omni AI Assistant'
+2026-06-10 05:47:33,827 | INFO     | company-ai.api | pid=3075 | app started | env='development' name='Company AI Assistant'
 2026-06-10 05:47:34,440 | INFO     | company-ai.api | pid=3075 | request | rid='7f97ab7dd49a' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=53 ip='192.168.1.111'
 2026-06-10 05:47:40,349 | INFO     | company-ai.api | pid=3075 | request | rid='3bcfc381d1aa' method='GET' path='/chat.html' status=304 latency_ms=16 ip='10.212.134.100'
 2026-06-10 05:47:40,570 | INFO     | company-ai.api | pid=3075 | request | rid='1d91152ad20c' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=30 ip='10.212.134.100'
@@ -1214,9 +1214,9 @@
 2026-06-10 05:48:43,471 | INFO     | company-ai.api | pid=3075 | request | rid='1dc7af57f999' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=368 ip='192.168.1.111'
 2026-06-10 05:48:44,011 | INFO     | company-ai.api | pid=3075 | request | rid='219b553a1382' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=15 ip='10.212.134.100'
 2026-06-10 05:48:44,013 | INFO     | company-ai.api | pid=3075 | request | rid='962c22bc3f4d' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=17 ip='10.212.134.100'
-2026-06-10 05:55:04,851 | INFO     | company-ai.api | pid=4030 | app started | env='development' name='Omni AI Assistant'
+2026-06-10 05:55:04,851 | INFO     | company-ai.api | pid=4030 | app started | env='development' name='Company AI Assistant'
 2026-06-10 05:55:13,286 | INFO     | company-ai.api | pid=4030 | app stopped
-2026-06-10 05:55:17,420 | INFO     | company-ai.api | pid=4141 | app started | env='development' name='Omni AI Assistant'
+2026-06-10 05:55:17,420 | INFO     | company-ai.api | pid=4141 | app started | env='development' name='Company AI Assistant'
 2026-06-10 05:55:42,942 | INFO     | company-ai.api | pid=4141 | request | rid='9d402912e986' method='GET' path='/api/v1/chat/sessions/16' status=200 latency_ms=53 ip='10.212.134.100'
 2026-06-10 05:55:43,273 | INFO     | company-ai.api | pid=4141 | request | rid='4ed3851e028d' method='GET' path='/api/v1/chat/sessions/18' status=200 latency_ms=9 ip='10.212.134.100'
 2026-06-10 05:55:44,316 | INFO     | company-ai.api | pid=4141 | request | rid='fa274fe70c7e' method='GET' path='/api/v1/chat/sessions/21' status=200 latency_ms=13 ip='10.212.134.100'
@@ -1459,9 +1459,9 @@
 2026-06-11 05:54:06,539 | INFO     | company-ai.api | pid=4141 | request | rid='e08b26b04366' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=37 ip='192.168.1.111'
 2026-06-11 05:54:06,603 | INFO     | company-ai.api | pid=4141 | request | rid='c4069eeae6b3' method='GET' path='/api/v1/chat/facets' status=200 latency_ms=11 ip='192.168.1.111'
 2026-06-11 05:55:09,966 | INFO     | company-ai.api | pid=4141 | app stopped
-2026-06-11 05:55:13,986 | INFO     | company-ai.api | pid=8397 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 05:55:13,986 | INFO     | company-ai.api | pid=8397 | app started | env='development' name='Company AI Assistant'
 2026-06-11 05:56:32,852 | INFO     | company-ai.api | pid=8397 | app stopped
-2026-06-11 05:56:36,889 | INFO     | company-ai.api | pid=8715 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 05:56:36,889 | INFO     | company-ai.api | pid=8715 | app started | env='development' name='Company AI Assistant'
 2026-06-11 05:56:37,134 | INFO     | company-ai.api | pid=8715 | request | rid='ee505d552680' method='GET' path='/index.html' status=304 latency_ms=8 ip='192.168.1.111'
 2026-06-11 05:56:38,157 | INFO     | company-ai.api | pid=8715 | request | rid='a9f621710eba' method='GET' path='/index.html' status=304 latency_ms=1 ip='192.168.1.111'
 2026-06-11 05:56:42,245 | INFO     | company-ai.api | pid=8715 | request | rid='53d4be1d808e' method='POST' path='/api/v1/auth/otp/request' status=204 latency_ms=712 ip='192.168.1.111'
@@ -1523,9 +1523,9 @@
 2026-06-11 05:57:57,080 | INFO     | company-ai.api | pid=8715 | request | rid='20458be817e2' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=9 ip='192.168.1.111'
 2026-06-11 05:57:57,128 | INFO     | company-ai.api | pid=8715 | request | rid='539928bd3884' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=8 ip='192.168.1.111'
 2026-06-11 05:58:06,255 | INFO     | company-ai.api | pid=8715 | app stopped
-2026-06-11 05:58:10,190 | INFO     | company-ai.api | pid=8768 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 05:58:10,190 | INFO     | company-ai.api | pid=8768 | app started | env='development' name='Company AI Assistant'
 2026-06-11 06:00:38,609 | INFO     | company-ai.api | pid=8768 | app stopped
-2026-06-11 06:00:42,953 | INFO     | company-ai.api | pid=9099 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 06:00:42,953 | INFO     | company-ai.api | pid=9099 | app started | env='development' name='Company AI Assistant'
 2026-06-11 06:00:46,657 | INFO     | company-ai.api | pid=9099 | request | rid='2d1d43c5951b' method='GET' path='/api/v1/auth/me' status=200 latency_ms=37 ip='192.168.1.111'
 2026-06-11 06:00:46,682 | INFO     | company-ai.api | pid=9099 | request | rid='f7d010eac98f' method='GET' path='/favicon.ico' status=404 latency_ms=3 ip='192.168.1.111'
 2026-06-11 06:00:46,969 | INFO     | company-ai.api | pid=9099 | request | rid='7ad5fdef0540' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=23 ip='192.168.1.111'
@@ -1583,13 +1583,13 @@
 2026-06-11 06:01:28,095 | INFO     | company-ai.api | pid=9099 | request | rid='e7c757c2dbb7' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=9 ip='192.168.1.111'
 2026-06-11 06:01:28,123 | INFO     | company-ai.api | pid=9099 | request | rid='ae98ee0368a1' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=8 ip='192.168.1.111'
 2026-06-11 06:05:54,160 | INFO     | company-ai.api | pid=9099 | app stopped
-2026-06-11 06:05:58,188 | INFO     | company-ai.api | pid=9262 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 06:05:58,188 | INFO     | company-ai.api | pid=9262 | app started | env='development' name='Company AI Assistant'
 2026-06-11 06:05:58,390 | INFO     | company-ai.api | pid=9262 | app stopped
-2026-06-11 06:06:02,579 | INFO     | company-ai.api | pid=9295 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 06:06:02,579 | INFO     | company-ai.api | pid=9295 | app started | env='development' name='Company AI Assistant'
 2026-06-11 06:06:17,333 | INFO     | company-ai.api | pid=9295 | app stopped
-2026-06-11 06:06:21,747 | INFO     | company-ai.api | pid=9374 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 06:06:21,747 | INFO     | company-ai.api | pid=9374 | app started | env='development' name='Company AI Assistant'
 2026-06-11 06:06:43,333 | INFO     | company-ai.api | pid=9374 | app stopped
-2026-06-11 06:06:47,830 | INFO     | company-ai.api | pid=9576 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 06:06:47,830 | INFO     | company-ai.api | pid=9576 | app started | env='development' name='Company AI Assistant'
 2026-06-11 06:06:50,831 | INFO     | company-ai.api | pid=9576 | request | rid='0fa71da784b8' method='GET' path='/favicon.ico' status=404 latency_ms=8 ip='192.168.1.111'
 2026-06-11 06:06:50,842 | INFO     | company-ai.api | pid=9576 | request | rid='99e0dfcdbbb0' method='GET' path='/api/v1/auth/me' status=200 latency_ms=44 ip='192.168.1.111'
 2026-06-11 06:06:51,045 | INFO     | company-ai.api | pid=9576 | request | rid='b5d9eadf44a5' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=25 ip='192.168.1.111'
@@ -1678,9 +1678,9 @@
 2026-06-11 07:06:55,463 | INFO     | company-ai.api | pid=9576 | request | rid='89e0186c7328' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=4348 ip='192.168.1.111'
 2026-06-11 07:06:57,891 | INFO     | company-ai.api | pid=9576 | request | rid='6936bf8ba847' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=2432 ip='192.168.1.111'
 2026-06-11 07:07:00,301 | INFO     | company-ai.api | pid=9576 | request | rid='15183579c268' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=5322 ip='192.168.1.111'
-2026-06-11 07:09:54,541 | INFO     | company-ai.api | pid=10333 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 07:09:54,541 | INFO     | company-ai.api | pid=10333 | app started | env='development' name='Company AI Assistant'
 2026-06-11 07:10:15,420 | INFO     | company-ai.api | pid=10333 | app stopped
-2026-06-11 07:10:19,257 | INFO     | company-ai.api | pid=10620 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 07:10:19,257 | INFO     | company-ai.api | pid=10620 | app started | env='development' name='Company AI Assistant'
 2026-06-11 07:10:27,497 | INFO     | company-ai.api | pid=10620 | request | rid='9f5a122d197e' method='GET' path='/api/v1/auth/me' status=200 latency_ms=29 ip='192.168.1.111'
 2026-06-11 07:10:27,574 | INFO     | company-ai.api | pid=10620 | request | rid='3dfcbeb383e1' method='GET' path='/favicon.ico' status=404 latency_ms=2 ip='192.168.1.111'
 2026-06-11 07:10:27,891 | INFO     | company-ai.api | pid=10620 | request | rid='dedaf204f04d' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=29 ip='192.168.1.111'
@@ -1724,11 +1724,11 @@
 2026-06-11 07:12:36,938 | INFO     | company-ai.api | pid=10620 | request | rid='289ff1bc4fa9' method='GET' path='/api/v1/auth/departments' status=200 latency_ms=1936 ip='192.168.1.111'
 2026-06-11 07:12:37,388 | INFO     | company-ai.api | pid=10620 | request | rid='77a7d7987ac9' method='GET' path='/api/v1/chat/facets' status=200 latency_ms=214 ip='192.168.1.111'
 2026-06-11 07:12:39,502 | INFO     | company-ai.api | pid=10620 | request | rid='21f106a92b71' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=8 ip='192.168.1.111'
-2026-06-11 07:17:05,948 | INFO     | company-ai.api | pid=11718 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 07:17:05,948 | INFO     | company-ai.api | pid=11718 | app started | env='development' name='Company AI Assistant'
 2026-06-11 07:22:46,987 | INFO     | company-ai.api | pid=11718 | app stopped
-2026-06-11 07:22:51,075 | INFO     | company-ai.api | pid=11773 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 07:22:51,075 | INFO     | company-ai.api | pid=11773 | app started | env='development' name='Company AI Assistant'
 2026-06-11 07:23:14,352 | INFO     | company-ai.api | pid=11773 | app stopped
-2026-06-11 07:23:18,203 | INFO     | company-ai.api | pid=11953 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 07:23:18,203 | INFO     | company-ai.api | pid=11953 | app started | env='development' name='Company AI Assistant'
 2026-06-11 07:23:21,732 | INFO     | company-ai.api | pid=11953 | request | rid='753f01957850' method='GET' path='/chat.html' status=304 latency_ms=9 ip='192.168.1.111'
 2026-06-11 07:23:21,994 | INFO     | company-ai.api | pid=11953 | request | rid='cc23e44d3fc8' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=39 ip='192.168.1.111'
 2026-06-11 07:23:21,997 | INFO     | company-ai.api | pid=11953 | request | rid='b4594c976cb3' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=41 ip='192.168.1.111'
@@ -1813,7 +1813,7 @@
 2026-06-11 07:36:52,237 | INFO     | company-ai.api | pid=11953 | request | rid='083d8e7e39ee' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=852 ip='192.168.1.111'
 2026-06-11 07:36:52,945 | INFO     | company-ai.api | pid=11953 | request | rid='456059f175f5' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=8 ip='192.168.1.111'
 2026-06-11 07:36:53,805 | INFO     | company-ai.api | pid=11953 | request | rid='0744f5d2a0a8' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=188 ip='192.168.1.111'
-2026-06-11 08:06:02,080 | INFO     | company-ai.api | pid=12889 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 08:06:02,080 | INFO     | company-ai.api | pid=12889 | app started | env='development' name='Company AI Assistant'
 2026-06-11 08:06:02,241 | INFO     | company-ai.api | pid=12889 | request | rid='ba821a558e31' method='GET' path='/chat.html' status=304 latency_ms=10 ip='10.212.134.104'
 2026-06-11 08:06:04,946 | INFO     | company-ai.api | pid=12889 | request | rid='daf819e5f116' method='GET' path='/index.html' status=304 latency_ms=1 ip='10.212.134.104'
 2026-06-11 08:06:08,500 | INFO     | company-ai.api | pid=12889 | request | rid='38d66f93e7a6' method='POST' path='/api/v1/auth/otp/request' status=204 latency_ms=771 ip='10.212.134.104'
@@ -1888,7 +1888,7 @@
 2026-06-11 08:31:38,665 | INFO     | company-ai.api | pid=12889 | request | rid='d2c7b35251f9' method='GET' path='/api/v1/analytics/overview' status=200 latency_ms=2462 ip='10.212.134.104'
 2026-06-11 08:31:39,697 | INFO     | company-ai.api | pid=12889 | request | rid='ee59b0699189' method='GET' path='/api/v1/analytics/overview' status=200 latency_ms=2591 ip='10.212.134.104'
 2026-06-11 08:31:40,457 | INFO     | company-ai.api | pid=12889 | request | rid='6b6933fd5424' method='GET' path='/api/v1/admin/model' status=200 latency_ms=414 ip='10.212.134.104'
-2026-06-11 08:32:18,475 | INFO     | company-ai.api | pid=15327 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 08:32:18,475 | INFO     | company-ai.api | pid=15327 | app started | env='development' name='Company AI Assistant'
 2026-06-11 08:34:53,029 | INFO     | company-ai.api | pid=15327 | request | rid='f2dbe96b8ed8' method='GET' path='/admin.html' status=304 latency_ms=11 ip='10.212.134.104'
 2026-06-11 08:34:53,227 | INFO     | company-ai.api | pid=15327 | request | rid='81dfd5dcb7a8' method='GET' path='/api/v1/analytics/overview' status=200 latency_ms=91 ip='10.212.134.104'
 2026-06-11 08:34:53,360 | INFO     | company-ai.api | pid=15327 | request | rid='43560728d0df' method='GET' path='/api/v1/admin/model' status=200 latency_ms=14 ip='10.212.134.104'
@@ -1898,24 +1898,24 @@
 2026-06-11 08:35:34,501 | INFO     | company-ai.api | pid=15327 | request | rid='c4f779393cf6' method='GET' path='/api/v1/analytics/overview' status=200 latency_ms=23 ip='10.212.134.104'
 2026-06-11 08:35:34,603 | INFO     | company-ai.api | pid=15327 | request | rid='d18e810042b6' method='GET' path='/api/v1/admin/model' status=200 latency_ms=7 ip='10.212.134.104'
 2026-06-11 08:38:56,149 | INFO     | company-ai.api | pid=15327 | app stopped
-2026-06-11 08:39:05,309 | INFO     | company-ai.api | pid=16536 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 08:39:05,309 | INFO     | company-ai.api | pid=16536 | app started | env='development' name='Company AI Assistant'
 2026-06-11 08:39:06,154 | INFO     | company-ai.api | pid=16536 | request | rid='7c728c017fbd' method='GET' path='/admin.html' status=304 latency_ms=12 ip='10.212.134.104'
 2026-06-11 08:39:06,390 | INFO     | company-ai.api | pid=16536 | request | rid='f23000b87f83' method='GET' path='/api/v1/analytics/overview' status=200 latency_ms=104 ip='10.212.134.104'
 2026-06-11 08:39:06,500 | INFO     | company-ai.api | pid=16536 | request | rid='31b2f49b26d6' method='GET' path='/api/v1/admin/model' status=200 latency_ms=15 ip='10.212.134.104'
 2026-06-11 08:39:08,722 | INFO     | company-ai.api | pid=16536 | app stopped
-2026-06-11 08:39:17,654 | INFO     | company-ai.api | pid=16574 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 08:39:17,654 | INFO     | company-ai.api | pid=16574 | app started | env='development' name='Company AI Assistant'
 2026-06-11 08:40:03,274 | INFO     | company-ai.api | pid=16574 | request | rid='dd0503554a57' method='GET' path='/admin.html' status=304 latency_ms=10 ip='10.212.134.104'
 2026-06-11 08:40:03,935 | INFO     | company-ai.api | pid=16574 | request | rid='55acf4a56d82' method='GET' path='/api/v1/analytics/overview' status=200 latency_ms=61 ip='10.212.134.104'
 2026-06-11 08:40:04,573 | INFO     | company-ai.api | pid=16574 | request | rid='97526ea25d0b' method='GET' path='/api/v1/admin/model' status=200 latency_ms=12 ip='10.212.134.104'
 2026-06-11 08:41:18,248 | INFO     | company-ai.api | pid=16574 | app stopped
-2026-06-11 08:41:27,116 | INFO     | company-ai.api | pid=16683 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 08:41:27,116 | INFO     | company-ai.api | pid=16683 | app started | env='development' name='Company AI Assistant'
 2026-06-11 08:41:29,576 | INFO     | company-ai.api | pid=16683 | app stopped
-2026-06-11 08:41:38,597 | INFO     | company-ai.api | pid=16736 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 08:41:38,597 | INFO     | company-ai.api | pid=16736 | app started | env='development' name='Company AI Assistant'
 2026-06-11 08:41:39,838 | INFO     | company-ai.api | pid=16736 | request | rid='fea6a71f463b' method='GET' path='/admin.html' status=304 latency_ms=8 ip='10.212.134.104'
 2026-06-11 08:41:39,994 | INFO     | company-ai.api | pid=16736 | request | rid='573a3a9c385a' method='GET' path='/api/v1/analytics/overview' status=200 latency_ms=50 ip='10.212.134.104'
 2026-06-11 08:41:40,105 | INFO     | company-ai.api | pid=16736 | request | rid='75dfb2b06db2' method='GET' path='/api/v1/admin/model' status=200 latency_ms=10 ip='10.212.134.104'
 2026-06-11 08:41:46,126 | INFO     | company-ai.api | pid=16736 | app stopped
-2026-06-11 08:41:55,187 | INFO     | company-ai.api | pid=16795 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 08:41:55,187 | INFO     | company-ai.api | pid=16795 | app started | env='development' name='Company AI Assistant'
 2026-06-11 08:41:59,859 | INFO     | company-ai.api | pid=16795 | request | rid='cc1f126c804c' method='GET' path='/admin.html' status=304 latency_ms=8 ip='10.212.134.104'
 2026-06-11 08:42:00,083 | INFO     | company-ai.api | pid=16795 | request | rid='2c6da605bfac' method='GET' path='/api/v1/analytics/overview' status=200 latency_ms=52 ip='10.212.134.104'
 2026-06-11 08:42:00,189 | INFO     | company-ai.api | pid=16795 | request | rid='361c6cf089b1' method='GET' path='/api/v1/admin/model' status=200 latency_ms=11 ip='10.212.134.104'
@@ -1997,9 +1997,9 @@
 2026-06-11 08:51:07,772 | INFO     | company-ai.api | pid=16795 | request | rid='c3cd5afe8e36' method='GET' path='/api/v1/chat/facets' status=200 latency_ms=1209 ip='10.212.134.104'
 2026-06-11 08:51:08,282 | INFO     | company-ai.api | pid=16795 | request | rid='2b37fbe2aa1f' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=9 ip='10.212.134.104'
 2026-06-11 08:51:13,871 | INFO     | company-ai.api | pid=16795 | request | rid='fefc5176fd2f' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=10 ip='10.212.134.104'
-2026-06-11 09:03:42,638 | INFO     | company-ai.api | pid=19713 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 09:03:42,638 | INFO     | company-ai.api | pid=19713 | app started | env='development' name='Company AI Assistant'
 2026-06-11 09:03:42,743 | INFO     | company-ai.api | pid=19713 | app stopped
-2026-06-11 09:03:46,839 | INFO     | company-ai.api | pid=19737 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 09:03:46,839 | INFO     | company-ai.api | pid=19737 | app started | env='development' name='Company AI Assistant'
 2026-06-11 09:03:50,928 | INFO     | company-ai.api | pid=19737 | request | rid='475e632d0874' method='GET' path='/chat.html' status=304 latency_ms=11 ip='10.212.134.104'
 2026-06-11 09:03:51,157 | INFO     | company-ai.api | pid=19737 | request | rid='80cccad345f2' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=44 ip='10.212.134.104'
 2026-06-11 09:03:51,244 | INFO     | company-ai.api | pid=19737 | request | rid='0bdb61b9f1b9' method='GET' path='/api/v1/chat/suggestions/seed' status=200 latency_ms=30 ip='10.212.134.104'
@@ -2007,7 +2007,7 @@
 2026-06-11 09:03:51,247 | INFO     | company-ai.api | pid=19737 | request | rid='ae2526d271f5' method='GET' path='/api/v1/auth/departments' status=200 latency_ms=38 ip='10.212.134.104'
 2026-06-11 09:03:51,287 | INFO     | company-ai.api | pid=19737 | request | rid='593bca14bdbf' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=82 ip='10.212.134.104'
 2026-06-11 09:03:51,349 | INFO     | company-ai.api | pid=19737 | request | rid='b045206c9823' method='GET' path='/api/v1/chat/facets' status=200 latency_ms=11 ip='10.212.134.104'
-2026-06-11 09:11:23,384 | INFO     | company-ai.api | pid=20329 | app started | env='development' name='Omni AI Assistant'
+2026-06-11 09:11:23,384 | INFO     | company-ai.api | pid=20329 | app started | env='development' name='Company AI Assistant'
 2026-06-11 09:11:27,988 | INFO     | company-ai.api | pid=20329 | request | rid='5ada81914ef0' method='GET' path='/chat.html' status=304 latency_ms=14 ip='10.212.134.104'
 2026-06-11 09:11:45,379 | INFO     | company-ai.api | pid=20329 | request | rid='61d7ffe5ef78' method='POST' path='/api/v1/auth/otp/request' status=204 latency_ms=806 ip='10.212.134.104'
 2026-06-11 09:11:47,817 | INFO     | company-ai.api | pid=20329 | request | rid='33b7ce031f27' method='POST' path='/api/v1/auth/otp/verify' status=200 latency_ms=44 ip='10.212.134.104'
@@ -2100,9 +2100,9 @@
 2026-06-12 09:01:14,012 | INFO     | company-ai.api | pid=20329 | request | rid='d38aca3902f8' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=13 ip='192.168.1.111'
 2026-06-12 09:01:14,046 | INFO     | company-ai.api | pid=20329 | request | rid='51498ef6c7e5' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=11 ip='192.168.1.111'
 2026-06-12 09:02:11,235 | INFO     | company-ai.api | pid=20329 | app stopped
-2026-06-12 09:02:15,765 | INFO     | company-ai.api | pid=23894 | app started | env='development' name='Omni AI Assistant'
+2026-06-12 09:02:15,765 | INFO     | company-ai.api | pid=23894 | app started | env='development' name='Company AI Assistant'
 2026-06-12 09:03:38,032 | INFO     | company-ai.api | pid=23894 | app stopped
-2026-06-12 09:03:42,386 | INFO     | company-ai.api | pid=24270 | app started | env='development' name='Omni AI Assistant'
+2026-06-12 09:03:42,386 | INFO     | company-ai.api | pid=24270 | app started | env='development' name='Company AI Assistant'
 2026-06-12 09:04:36,671 | INFO     | company-ai.api | pid=24270 | request | rid='964c1ae64c60' method='GET' path='/api/v1/auth/me' status=200 latency_ms=30 ip='192.168.1.111'
 2026-06-12 09:04:36,802 | INFO     | company-ai.api | pid=24270 | request | rid='dfc62a4b7723' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=26 ip='192.168.1.111'
 2026-06-12 09:04:36,847 | INFO     | company-ai.api | pid=24270 | request | rid='d70f62c1aabd' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=68 ip='192.168.1.111'
@@ -2256,7 +2256,7 @@
 2026-06-12 13:21:18,877 | INFO     | company-ai.api | pid=24270 | request | rid='865358a75638' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=9 ip='192.168.1.111'
 2026-06-12 13:21:18,910 | INFO     | company-ai.api | pid=24270 | request | rid='585f5d12e582' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=10 ip='192.168.1.111'
 2026-06-14 02:48:17,707 | INFO     | company-ai.api | pid=24270 | app stopped
-2026-06-14 02:48:21,689 | INFO     | company-ai.api | pid=25970 | app started | env='development' name='Omni AI Assistant'
+2026-06-14 02:48:21,689 | INFO     | company-ai.api | pid=25970 | app started | env='development' name='Company AI Assistant'
 2026-06-14 02:48:26,018 | INFO     | company-ai.api | pid=25970 | request | rid='09bff9539bed' method='GET' path='/chat.html' status=200 latency_ms=10 ip='10.212.134.100'
 2026-06-14 02:48:26,128 | INFO     | company-ai.api | pid=25970 | request | rid='1378a86a6b4e' method='GET' path='/css/main.css' status=200 latency_ms=1 ip='10.212.134.100'
 2026-06-14 02:48:26,470 | INFO     | company-ai.api | pid=25970 | request | rid='db0604a7d051' method='GET' path='/css/chat.css' status=304 latency_ms=3 ip='10.212.134.100'
@@ -2395,11 +2395,11 @@
 2026-06-15 04:24:56,356 | INFO     | company-ai.api | pid=25970 | request | rid='ff5bc5d0c4b1' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=35 ip='10.212.134.101'
 2026-06-15 04:24:56,713 | INFO     | company-ai.api | pid=25970 | request | rid='d912f881db18' method='GET' path='/api/v1/chat/facets' status=200 latency_ms=8 ip='10.212.134.101'
 2026-06-15 05:03:37,881 | INFO     | company-ai.api | pid=25970 | app stopped
-2026-06-15 05:03:41,980 | INFO     | company-ai.api | pid=27383 | app started | env='development' name='Omni AI Assistant'
+2026-06-15 05:03:41,980 | INFO     | company-ai.api | pid=27383 | app started | env='development' name='Company AI Assistant'
 2026-06-15 05:04:11,897 | INFO     | company-ai.api | pid=27383 | app stopped
-2026-06-15 05:04:16,174 | INFO     | company-ai.api | pid=27616 | app started | env='development' name='Omni AI Assistant'
+2026-06-15 05:04:16,174 | INFO     | company-ai.api | pid=27616 | app started | env='development' name='Company AI Assistant'
 2026-06-15 05:05:03,440 | INFO     | company-ai.api | pid=27616 | app stopped
-2026-06-15 05:05:07,740 | INFO     | company-ai.api | pid=27884 | app started | env='development' name='Omni AI Assistant'
+2026-06-15 05:05:07,740 | INFO     | company-ai.api | pid=27884 | app started | env='development' name='Company AI Assistant'
 2026-06-15 05:05:52,032 | INFO     | company-ai.api | pid=27884 | request | rid='2ff2c6398839' method='GET' path='/' status=304 latency_ms=9 ip='192.168.1.111'
 2026-06-15 05:05:52,577 | INFO     | company-ai.api | pid=27884 | request | rid='48a9d66118ea' method='GET' path='/css/main.css' status=304 latency_ms=1 ip='192.168.1.111'
 2026-06-15 05:05:52,579 | INFO     | company-ai.api | pid=27884 | request | rid='a244588d35cd' method='GET' path='/css/auth.css' status=304 latency_ms=1 ip='192.168.1.111'
@@ -2887,7 +2887,7 @@
 2026-06-15 06:41:40,628 | INFO     | company-ai.api | pid=27884 | request | rid='41f31db9d5d4' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=195 ip='127.0.0.1'
 2026-06-15 06:41:40,634 | INFO     | company-ai.api | pid=27884 | request | rid='5cb8867c5176' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=198 ip='127.0.0.1'
 2026-06-15 07:18:21,672 | INFO     | company-ai.api | pid=27884 | app stopped
-2026-06-15 07:18:26,428 | INFO     | company-ai.api | pid=30038 | app started | env='development' name='Omni AI Assistant'
+2026-06-15 07:18:26,428 | INFO     | company-ai.api | pid=30038 | app started | env='development' name='Company AI Assistant'
 2026-06-15 07:18:30,374 | INFO     | company-ai.api | pid=30038 | request | rid='e9098ae4a5a8' method='GET' path='/api/v1/auth/me' status=401 latency_ms=16 ip='192.168.1.111'
 2026-06-15 07:18:30,436 | INFO     | company-ai.api | pid=30038 | request | rid='8a90d34e1216' method='GET' path='/favicon.ico' status=404 latency_ms=2 ip='192.168.1.111'
 2026-06-15 07:18:34,565 | INFO     | company-ai.api | pid=30038 | request | rid='444cbc509af7' method='POST' path='/api/v1/auth/otp/request' status=204 latency_ms=854 ip='192.168.1.111'
@@ -2901,7 +2901,7 @@
 2026-06-15 07:18:39,836 | INFO     | company-ai.api | pid=30038 | request | rid='948761ee2df2' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=112 ip='192.168.1.111'
 2026-06-15 07:18:39,848 | INFO     | company-ai.api | pid=30038 | request | rid='f27c575b32b2' method='GET' path='/api/v1/chat/facets' status=200 latency_ms=25 ip='192.168.1.111'
 2026-06-15 07:20:09,307 | INFO     | company-ai.api | pid=30038 | app stopped
-2026-06-15 07:20:13,558 | INFO     | company-ai.api | pid=30336 | app started | env='development' name='Omni AI Assistant'
+2026-06-15 07:20:13,558 | INFO     | company-ai.api | pid=30336 | app started | env='development' name='Company AI Assistant'
 2026-06-15 07:20:15,253 | INFO     | company-ai.api | pid=30336 | request | rid='33cb89df2a84' method='GET' path='/api/v1/auth/me' status=200 latency_ms=31 ip='192.168.1.111'
 2026-06-15 07:20:15,461 | INFO     | company-ai.api | pid=30336 | request | rid='6bdd91fbd10d' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=43 ip='192.168.1.111'
 2026-06-15 07:20:15,485 | INFO     | company-ai.api | pid=30336 | request | rid='df9d10094abe' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=61 ip='192.168.1.111'
@@ -3019,7 +3019,7 @@
 2026-06-16 05:35:05,977 | INFO     | company-ai.api | pid=30336 | request | rid='b14de69f6f05' method='GET' path='/api/v1/admin/departments' status=200 latency_ms=7 ip='192.168.1.111'
 2026-06-16 05:35:06,184 | INFO     | company-ai.api | pid=30336 | request | rid='4f8dd18aea6b' method='GET' path='/api/v1/admin/kb/documents' status=200 latency_ms=166 ip='192.168.1.111'
 2026-06-16 05:55:59,093 | INFO     | company-ai.api | pid=30336 | app stopped
-2026-06-16 05:56:03,700 | INFO     | company-ai.api | pid=32095 | app started | env='development' name='Omni AI Assistant'
+2026-06-16 05:56:03,700 | INFO     | company-ai.api | pid=32095 | app started | env='development' name='Company AI Assistant'
 2026-06-16 05:56:03,882 | INFO     | company-ai.api | pid=32095 | request | rid='73f4147196c3' method='GET' path='/api/v1/auth/me' status=200 latency_ms=36 ip='192.168.1.111'
 2026-06-16 05:56:04,108 | INFO     | company-ai.api | pid=32095 | request | rid='08e61f7af13e' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=24 ip='192.168.1.111'
 2026-06-16 05:56:04,118 | INFO     | company-ai.api | pid=32095 | request | rid='593259dfe4c8' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=29 ip='192.168.1.111'
@@ -3852,7 +3852,7 @@
 2026-06-16 08:30:59,579 | INFO     | company-ai.api | pid=32095 | request | rid='ddc4335f6514' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=17 ip='10.212.134.104'
 2026-06-16 08:30:59,584 | INFO     | company-ai.api | pid=32095 | request | rid='10106c864450' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=18 ip='10.212.134.104'
 2026-06-16 08:32:45,888 | INFO     | company-ai.api | pid=32095 | app stopped
-2026-06-16 08:32:49,956 | INFO     | company-ai.api | pid=33055 | app started | env='development' name='Omni AI Assistant'
+2026-06-16 08:32:49,956 | INFO     | company-ai.api | pid=33055 | app started | env='development' name='Company AI Assistant'
 2026-06-16 08:32:54,570 | INFO     | company-ai.api | pid=33055 | request | rid='d3dabb602726' method='GET' path='/chat.html' status=304 latency_ms=9 ip='10.212.134.104'
 2026-06-16 08:32:54,802 | INFO     | company-ai.api | pid=33055 | request | rid='e1be3857b63d' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=27 ip='10.212.134.104'
 2026-06-16 08:32:54,899 | INFO     | company-ai.api | pid=33055 | request | rid='2a6d62c8062b' method='GET' path='/api/v1/chat/models' status=200 latency_ms=22 ip='10.212.134.104'
@@ -3866,7 +3866,7 @@
 2026-06-16 08:33:11,697 | INFO     | company-ai.api | pid=33055 | request | rid='5df6365cf5c3' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=15 ip='10.212.134.104'
 2026-06-16 08:33:11,700 | INFO     | company-ai.api | pid=33055 | request | rid='0af350b29e75' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=18 ip='10.212.134.104'
 2026-06-16 08:36:39,819 | INFO     | company-ai.api | pid=33055 | app stopped
-2026-06-16 08:36:44,148 | INFO     | company-ai.api | pid=33216 | app started | env='development' name='Omni AI Assistant'
+2026-06-16 08:36:44,148 | INFO     | company-ai.api | pid=33216 | app started | env='development' name='Company AI Assistant'
 2026-06-16 08:36:51,605 | INFO     | company-ai.api | pid=33216 | request | rid='c3174f057fd5' method='GET' path='/chat.html' status=304 latency_ms=9 ip='10.212.134.104'
 2026-06-16 08:36:51,804 | INFO     | company-ai.api | pid=33216 | request | rid='905cc7c3c028' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=30 ip='10.212.134.104'
 2026-06-16 08:36:51,897 | INFO     | company-ai.api | pid=33216 | request | rid='01486e4d52b6' method='GET' path='/api/v1/chat/suggestions/seed' status=200 latency_ms=29 ip='10.212.134.104'
@@ -3965,7 +3965,7 @@
 2026-06-16 08:43:13,374 | INFO     | company-ai.api | pid=33216 | request | rid='d9b6184db016' method='GET' path='/api/v1/chat/sessions/14' status=200 latency_ms=10 ip='10.212.134.104'
 2026-06-16 08:43:15,167 | INFO     | company-ai.api | pid=33216 | request | rid='2f79f2c509f1' method='GET' path='/api/v1/chat/sessions/13' status=200 latency_ms=10 ip='10.212.134.104'
 2026-06-16 08:43:48,881 | INFO     | company-ai.api | pid=33216 | app stopped
-2026-06-16 08:43:52,998 | INFO     | company-ai.api | pid=33348 | app started | env='development' name='Omni AI Assistant'
+2026-06-16 08:43:52,998 | INFO     | company-ai.api | pid=33348 | app started | env='development' name='Company AI Assistant'
 2026-06-16 08:44:01,145 | INFO     | company-ai.api | pid=33348 | request | rid='4c2b5f1c88df' method='GET' path='/api/v1/chat/sessions/39' status=200 latency_ms=30 ip='10.212.134.104'
 2026-06-16 08:44:04,010 | INFO     | company-ai.api | pid=33348 | request | rid='2061287fb368' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=10 ip='10.212.134.104'
 2026-06-16 08:44:04,281 | INFO     | company-ai.api | pid=33348 | request | rid='693f83839ad0' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=11 ip='10.212.134.104'
@@ -4045,11 +4045,11 @@
 2026-06-17 05:04:54,482 | INFO     | company-ai.api | pid=33348 | request | rid='a0f0beb03738' method='GET' path='/api/v1/admin/users' status=200 latency_ms=26 ip='10.212.134.102'
 2026-06-17 05:04:55,257 | INFO     | company-ai.api | pid=33348 | request | rid='2ffaec1494bd' method='GET' path='/api/v1/admin/departments' status=200 latency_ms=9 ip='10.212.134.102'
 2026-06-17 05:04:55,512 | INFO     | company-ai.api | pid=33348 | request | rid='eecbed492dc5' method='GET' path='/api/v1/admin/kb/documents' status=200 latency_ms=156 ip='10.212.134.102'
-2026-06-17 11:08:43,126 | INFO     | company-ai.api | pid=6968 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 11:08:43,126 | INFO     | company-ai.api | pid=6968 | app started | env='development' name='Company AI Assistant'
 2026-06-17 11:09:21,393 | INFO     | company-ai.api | pid=6968 | app stopped
-2026-06-17 11:10:04,831 | INFO     | company-ai.api | pid=24596 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 11:10:04,831 | INFO     | company-ai.api | pid=24596 | app started | env='development' name='Company AI Assistant'
 2026-06-17 11:11:19,177 | INFO     | company-ai.api | pid=24596 | app stopped
-2026-06-17 11:13:22,740 | INFO     | company-ai.api | pid=13080 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 11:13:22,740 | INFO     | company-ai.api | pid=13080 | app started | env='development' name='Company AI Assistant'
 2026-06-17 11:13:23,426 | INFO     | company-ai.api | pid=13080 | request | rid='c3f757d6566b' method='GET' path='/admin.html' status=200 latency_ms=110 ip='127.0.0.1'
 2026-06-17 11:13:23,559 | INFO     | company-ai.api | pid=13080 | request | rid='90f472e81fa3' method='GET' path='/api/v1/analytics/overview' status=200 latency_ms=105 ip='127.0.0.1'
 2026-06-17 11:13:23,579 | INFO     | company-ai.api | pid=13080 | request | rid='46cc453b8730' method='GET' path='/api/v1/admin/model' status=200 latency_ms=14 ip='127.0.0.1'
@@ -4146,7 +4146,7 @@
 2026-06-17 11:15:01,884 | INFO     | company-ai.api | pid=13080 | request | rid='7001d4caf207' method='GET' path='/api/v1/admin/users' status=200 latency_ms=11 ip='127.0.0.1'
 2026-06-17 11:15:02,388 | INFO     | company-ai.api | pid=13080 | request | rid='6d2ba4fed7f1' method='GET' path='/api/v1/admin/kb/documents' status=200 latency_ms=1321 ip='127.0.0.1'
 2026-06-17 11:25:37,320 | INFO     | company-ai.api | pid=13080 | app stopped
-2026-06-17 11:34:54,842 | INFO     | company-ai.api | pid=22132 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 11:34:54,842 | INFO     | company-ai.api | pid=22132 | app started | env='development' name='Company AI Assistant'
 2026-06-17 11:34:54,943 | INFO     | company-ai.api | pid=22132 | request | rid='b927e795f084' method='GET' path='/admin.html' status=304 latency_ms=83 ip='127.0.0.1'
 2026-06-17 11:34:55,074 | INFO     | company-ai.api | pid=22132 | request | rid='be2ae12a6ffe' method='GET' path='/api/v1/analytics/overview' status=200 latency_ms=63 ip='127.0.0.1'
 2026-06-17 11:34:55,092 | INFO     | company-ai.api | pid=22132 | request | rid='04eaaf9547d7' method='GET' path='/api/v1/admin/model' status=200 latency_ms=13 ip='127.0.0.1'
@@ -4282,7 +4282,7 @@
 2026-06-17 11:39:16,402 | INFO     | company-ai.api | pid=22132 | request | rid='05204e0d86a0' method='GET' path='/api/v1/admin/departments' status=200 latency_ms=7 ip='127.0.0.1'
 2026-06-17 11:39:17,490 | INFO     | company-ai.api | pid=22132 | request | rid='9fa80bbcbf9d' method='GET' path='/api/v1/admin/kb/documents' status=200 latency_ms=1077 ip='127.0.0.1'
 2026-06-17 11:41:12,502 | INFO     | company-ai.api | pid=22132 | app stopped
-2026-06-17 11:41:26,740 | INFO     | company-ai.api | pid=26632 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 11:41:26,740 | INFO     | company-ai.api | pid=26632 | app started | env='development' name='Company AI Assistant'
 2026-06-17 11:41:26,846 | INFO     | company-ai.api | pid=26632 | request | rid='1f3e0231de12' method='GET' path='/api/v1/admin/departments' status=200 latency_ms=77 ip='127.0.0.1'
 2026-06-17 11:41:26,903 | INFO     | company-ai.api | pid=26632 | request | rid='31f91b0781c3' method='GET' path='/api/v1/analytics/overview' status=200 latency_ms=53 ip='127.0.0.1'
 2026-06-17 11:41:26,917 | INFO     | company-ai.api | pid=26632 | request | rid='ce368103fe85' method='GET' path='/api/v1/admin/departments' status=200 latency_ms=9 ip='127.0.0.1'
@@ -4330,7 +4330,7 @@
 2026-06-17 11:43:54,089 | INFO     | company-ai.api | pid=26632 | request | rid='265677ef58c8' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=7 ip='127.0.0.1'
 2026-06-17 11:43:54,102 | INFO     | company-ai.api | pid=26632 | request | rid='b8913d54eb4f' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=10 ip='127.0.0.1'
 2026-06-17 11:46:20,478 | INFO     | company-ai.api | pid=26632 | app stopped
-2026-06-17 11:46:30,298 | INFO     | company-ai.api | pid=13688 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 11:46:30,298 | INFO     | company-ai.api | pid=13688 | app started | env='development' name='Company AI Assistant'
 2026-06-17 11:46:47,150 | INFO     | company-ai.api | pid=13688 | request | rid='ba36dcbbd661' method='GET' path='/chat.html' status=304 latency_ms=78 ip='127.0.0.1'
 2026-06-17 11:46:47,161 | INFO     | company-ai.api | pid=13688 | request | rid='ebec5d02f5e6' method='GET' path='/css/chat.css' status=304 latency_ms=2 ip='127.0.0.1'
 2026-06-17 11:46:47,166 | INFO     | company-ai.api | pid=13688 | request | rid='7ec7a6bab6dd' method='GET' path='/js/chat.js' status=304 latency_ms=2 ip='127.0.0.1'
@@ -4343,7 +4343,7 @@
 2026-06-17 11:46:55,016 | INFO     | company-ai.api | pid=13688 | request | rid='78a8fff376d6' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=11 ip='127.0.0.1'
 2026-06-17 11:46:55,033 | INFO     | company-ai.api | pid=13688 | request | rid='3c6dec2edf4f' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=26 ip='127.0.0.1'
 2026-06-17 11:46:55,199 | INFO     | company-ai.api | pid=13688 | app stopped
-2026-06-17 11:47:04,851 | INFO     | company-ai.api | pid=20556 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 11:47:04,851 | INFO     | company-ai.api | pid=20556 | app started | env='development' name='Company AI Assistant'
 2026-06-17 11:47:10,198 | INFO     | company-ai.api | pid=20556 | request | rid='1713c30e93be' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=25 ip='127.0.0.1'
 2026-06-17 11:47:10,205 | INFO     | company-ai.api | pid=20556 | request | rid='caee7c98ce55' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=29 ip='127.0.0.1'
 2026-06-17 11:47:12,819 | INFO     | company-ai.api | pid=20556 | request | rid='b6bfe1bc5984' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=35 ip='127.0.0.1'
@@ -4353,12 +4353,12 @@
 2026-06-17 11:48:39,157 | INFO     | company-ai.api | pid=20556 | request | rid='eb6e5fed3767' method='DELETE' path='/api/v1/chat/sessions/11/messages/40' status=204 latency_ms=24 ip='127.0.0.1'
 2026-06-17 11:48:46,602 | INFO     | company-ai.api | pid=20556 | request | rid='702a186c1265' method='DELETE' path='/api/v1/chat/sessions/11/messages/42' status=204 latency_ms=17 ip='127.0.0.1'
 2026-06-17 11:48:49,118 | INFO     | company-ai.api | pid=20556 | app stopped
-2026-06-17 11:48:58,927 | INFO     | company-ai.api | pid=23436 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 11:48:58,927 | INFO     | company-ai.api | pid=23436 | app started | env='development' name='Company AI Assistant'
 2026-06-17 11:49:07,310 | INFO     | company-ai.api | pid=23436 | request | rid='80b1f2565b8c' method='GET' path='/api/v1/chat/suggestions/seed' status=200 latency_ms=31 ip='127.0.0.1'
 2026-06-17 11:49:18,793 | INFO     | company-ai.api | pid=23436 | app stopped
-2026-06-17 11:49:28,452 | INFO     | company-ai.api | pid=11440 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 11:49:28,452 | INFO     | company-ai.api | pid=11440 | app started | env='development' name='Company AI Assistant'
 2026-06-17 11:49:28,556 | INFO     | company-ai.api | pid=11440 | app stopped
-2026-06-17 11:49:40,823 | INFO     | company-ai.api | pid=3088 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 11:49:40,823 | INFO     | company-ai.api | pid=3088 | app started | env='development' name='Company AI Assistant'
 2026-06-17 11:49:44,244 | INFO     | company-ai.api | pid=3088 | request | rid='ebb99566141d' method='GET' path='/chat.html' status=304 latency_ms=88 ip='127.0.0.1'
 2026-06-17 11:49:44,256 | INFO     | company-ai.api | pid=3088 | request | rid='8ab8ce3626b3' method='GET' path='/css/chat.css' status=304 latency_ms=2 ip='127.0.0.1'
 2026-06-17 11:49:44,260 | INFO     | company-ai.api | pid=3088 | request | rid='fac801e36165' method='GET' path='/js/chat.js' status=304 latency_ms=1 ip='127.0.0.1'
@@ -4440,7 +4440,7 @@
 2026-06-17 11:54:41,309 | INFO     | company-ai.api | pid=3088 | request | rid='a207d6797358' method='GET' path='/.well-known/appspecific/com.chrome.devtools.json' status=404 latency_ms=3 ip='127.0.0.1'
 2026-06-17 11:55:14,856 | INFO     | company-ai.api | pid=3088 | request | rid='f1c7256acbd4' method='GET' path='/api/v1/admin/departments' status=200 latency_ms=8 ip='127.0.0.1'
 2026-06-17 11:56:34,250 | INFO     | company-ai.api | pid=3088 | app stopped
-2026-06-17 12:17:09,295 | INFO     | company-ai.api | pid=9780 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 12:17:09,295 | INFO     | company-ai.api | pid=9780 | app started | env='development' name='Company AI Assistant'
 2026-06-17 12:17:13,977 | INFO     | company-ai.api | pid=9780 | request | rid='456cb496d7bb' method='GET' path='/' status=200 latency_ms=93 ip='127.0.0.1'
 2026-06-17 12:17:14,025 | INFO     | company-ai.api | pid=9780 | request | rid='5401b9342577' method='GET' path='/css/main.css' status=200 latency_ms=1 ip='127.0.0.1'
 2026-06-17 12:17:14,058 | INFO     | company-ai.api | pid=9780 | request | rid='e42b21ac2ec4' method='GET' path='/css/auth.css' status=200 latency_ms=4 ip='127.0.0.1'
@@ -4516,9 +4516,9 @@
 2026-06-17 12:19:05,785 | INFO     | company-ai.api | pid=9780 | request | rid='777a50fa169f' method='GET' path='/api/v1/chat/models' status=200 latency_ms=7 ip='127.0.0.1'
 2026-06-17 12:19:05,796 | INFO     | company-ai.api | pid=9780 | request | rid='b108406be7c6' method='GET' path='/api/v1/chat/facets' status=200 latency_ms=10 ip='127.0.0.1'
 2026-06-17 12:19:26,742 | INFO     | company-ai.api | pid=9780 | app stopped
-2026-06-17 13:08:10,406 | INFO     | company-ai.api | pid=8232 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 13:08:10,406 | INFO     | company-ai.api | pid=8232 | app started | env='development' name='Company AI Assistant'
 2026-06-17 14:41:16,852 | INFO     | company-ai.api | pid=8232 | app stopped
-2026-06-17 14:51:45,133 | INFO     | company-ai.api | pid=26064 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 14:51:45,133 | INFO     | company-ai.api | pid=26064 | app started | env='development' name='Company AI Assistant'
 2026-06-17 14:53:53,553 | INFO     | company-ai.api | pid=26064 | request | rid='e6b18d5b7666' method='GET' path='/' status=200 latency_ms=124 ip='127.0.0.1'
 2026-06-17 14:53:53,607 | INFO     | company-ai.api | pid=26064 | request | rid='acbd62606e66' method='GET' path='/css/main.css' status=200 latency_ms=2 ip='127.0.0.1'
 2026-06-17 14:53:53,636 | INFO     | company-ai.api | pid=26064 | request | rid='381cd24b00de' method='GET' path='/css/auth.css' status=200 latency_ms=2 ip='127.0.0.1'
@@ -4540,9 +4540,9 @@
 2026-06-17 14:54:01,908 | INFO     | company-ai.api | pid=26064 | request | rid='97d5750f750a' method='GET' path='/api/v1/auth/departments' status=200 latency_ms=166 ip='127.0.0.1'
 2026-06-17 14:54:01,923 | INFO     | company-ai.api | pid=26064 | request | rid='d5f051e4730b' method='GET' path='/api/v1/chat/facets' status=200 latency_ms=11 ip='127.0.0.1'
 2026-06-17 14:55:05,673 | INFO     | company-ai.api | pid=26064 | app stopped
-2026-06-17 14:55:59,803 | INFO     | company-ai.api | pid=8684 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 14:55:59,803 | INFO     | company-ai.api | pid=8684 | app started | env='development' name='Company AI Assistant'
 2026-06-17 14:56:55,241 | INFO     | company-ai.api | pid=8684 | app stopped
-2026-06-17 12:52:42,357 | INFO     | company-ai.api | pid=51364 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 12:52:42,357 | INFO     | company-ai.api | pid=51364 | app started | env='development' name='Company AI Assistant'
 2026-06-17 12:52:59,076 | INFO     | company-ai.api | pid=51364 | request | rid='01ab20bff7d1' method='GET' path='/' status=200 latency_ms=8 ip='10.212.134.101'
 2026-06-17 12:52:59,174 | INFO     | company-ai.api | pid=51364 | request | rid='2125f417eda4' method='GET' path='/css/main.css' status=200 latency_ms=1 ip='10.212.134.101'
 2026-06-17 12:52:59,274 | INFO     | company-ai.api | pid=51364 | request | rid='5e3a879eec60' method='GET' path='/js/icons.js' status=200 latency_ms=5 ip='10.212.134.101'
@@ -4733,7 +4733,7 @@
 2026-06-17 13:33:36,778 | INFO     | company-ai.api | pid=51364 | request | rid='0cfff737cf95' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=17 ip='10.212.134.101'
 2026-06-17 13:33:36,782 | INFO     | company-ai.api | pid=51364 | request | rid='228028a96686' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=21 ip='10.212.134.101'
 2026-06-17 14:16:01,067 | INFO     | company-ai.api | pid=51364 | app stopped
-2026-06-17 14:18:23,797 | INFO     | company-ai.api | pid=52121 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 14:18:23,797 | INFO     | company-ai.api | pid=52121 | app started | env='development' name='Company AI Assistant'
 2026-06-17 14:18:23,925 | INFO     | company-ai.api | pid=52121 | request | rid='4c2344ca40e8' method='GET' path='/chat.html' status=304 latency_ms=13 ip='10.212.134.101'
 2026-06-17 14:18:24,028 | INFO     | company-ai.api | pid=52121 | request | rid='9397fa21d7fa' method='GET' path='/css/main.css' status=304 latency_ms=1 ip='10.212.134.101'
 2026-06-17 14:18:24,056 | INFO     | company-ai.api | pid=52121 | request | rid='dc8a7893a39e' method='GET' path='/css/chat.css' status=304 latency_ms=1 ip='10.212.134.101'
@@ -4757,27 +4757,27 @@
 2026-06-17 14:18:45,371 | INFO     | company-ai.api | pid=52121 | request | rid='95147ce1ad37' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=21 ip='10.212.134.101'
 2026-06-17 14:18:45,375 | INFO     | company-ai.api | pid=52121 | request | rid='1bf7b7565408' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=25 ip='10.212.134.101'
 2026-06-17 14:19:43,073 | INFO     | company-ai.api | pid=52121 | app stopped
-2026-06-17 14:19:46,895 | INFO     | company-ai.api | pid=52291 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 14:19:46,895 | INFO     | company-ai.api | pid=52291 | app started | env='development' name='Company AI Assistant'
 2026-06-17 14:20:42,481 | INFO     | company-ai.api | pid=52291 | app stopped
-2026-06-17 14:20:45,270 | INFO     | company-ai.api | pid=52364 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 14:20:45,270 | INFO     | company-ai.api | pid=52364 | app started | env='development' name='Company AI Assistant'
 2026-06-17 14:21:16,167 | INFO     | company-ai.api | pid=52364 | request | rid='ae4fdace5730' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=35 ip='10.212.134.101'
 2026-06-17 14:21:23,611 | INFO     | company-ai.api | pid=52364 | request | rid='ed4d7be8dc5a' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=20 ip='10.212.134.101'
 2026-06-17 14:21:23,614 | INFO     | company-ai.api | pid=52364 | request | rid='1256faa5b861' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=26 ip='10.212.134.101'
 2026-06-17 14:22:13,303 | INFO     | company-ai.api | pid=52364 | request | rid='74070fd7087a' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=11 ip='10.212.134.101'
 2026-06-17 14:22:13,305 | INFO     | company-ai.api | pid=52364 | request | rid='765a54e7290e' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=15 ip='10.212.134.101'
 2026-06-17 14:25:21,485 | INFO     | company-ai.api | pid=52364 | app stopped
-2026-06-17 14:25:24,072 | INFO     | company-ai.api | pid=52600 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 14:25:24,072 | INFO     | company-ai.api | pid=52600 | app started | env='development' name='Company AI Assistant'
 2026-06-17 14:25:35,695 | INFO     | company-ai.api | pid=52600 | request | rid='b474e4f50dcb' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=25 ip='10.212.134.101'
 2026-06-17 14:25:35,700 | INFO     | company-ai.api | pid=52600 | request | rid='236b99080c08' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=27 ip='10.212.134.101'
 2026-06-17 14:32:04,097 | INFO     | company-ai.api | pid=52600 | request | rid='9330e2bf9e29' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=29 ip='10.212.134.101'
 2026-06-17 14:32:04,104 | INFO     | company-ai.api | pid=52600 | request | rid='71911fe5708f' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=85 ip='10.212.134.101'
 2026-06-17 14:32:37,410 | INFO     | company-ai.api | pid=52600 | app stopped
-2026-06-17 14:32:41,538 | INFO     | company-ai.api | pid=53966 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 14:32:41,538 | INFO     | company-ai.api | pid=53966 | app started | env='development' name='Company AI Assistant'
 2026-06-17 14:32:43,214 | INFO     | company-ai.api | pid=53966 | request | rid='bddffbcbc7b2' method='POST' path='/api/v1/chat/suggestions/autocomplete' status=200 latency_ms=32 ip='10.212.134.101'
 2026-06-17 14:32:48,226 | INFO     | company-ai.api | pid=53966 | request | rid='467bb9d86be4' method='GET' path='/api/v1/auth/me/usage' status=200 latency_ms=14 ip='10.212.134.101'
 2026-06-17 14:32:48,310 | INFO     | company-ai.api | pid=53966 | request | rid='3c4530274471' method='GET' path='/api/v1/chat/sessions' status=200 latency_ms=11 ip='10.212.134.101'
 2026-06-17 14:37:03,689 | INFO     | company-ai.api | pid=53966 | app stopped
-2026-06-17 14:37:13,476 | INFO     | company-ai.api | pid=54211 | app started | env='development' name='Omni AI Assistant'
+2026-06-17 14:37:13,476 | INFO     | company-ai.api | pid=54211 | app started | env='development' name='Company AI Assistant'
 2026-06-17 14:37:13,622 | INFO     | company-ai.api | pid=54211 | request | rid='cdecb5f8bb14' method='GET' path='/chat.html' status=304 latency_ms=112 ip='10.212.134.101'
 2026-06-17 14:37:13,775 | INFO     | company-ai.api | pid=54211 | request | rid='f7f966af1f40' method='GET' path='/css/main.css' status=304 latency_ms=16 ip='10.212.134.101'
 2026-06-17 14:37:13,845 | INFO     | company-ai.api | pid=54211 | request | rid='e727bf967a84' method='GET' path='/css/chat.css' status=304 latency_ms=10 ip='10.212.134.101'
@@ -4801,7 +4801,7 @@
 2026-06-17 14:45:38,917 | INFO     | company-ai.api | pid=54211 | request | rid='9cd091366b72' method='GET' path='/api/v1/auth/departments' status=200 latency_ms=25 ip='10.212.134.101'
 2026-06-17 14:45:39,055 | INFO     | company-ai.api | pid=54211 | request | rid='60087bea0784' method='GET' path='/api/v1/chat/facets' status=200 latency_ms=11 ip='10.212.134.101'
 2026-06-17 14:46:04,008 | INFO     | company-ai.api | pid=54211 | app stopped
-2026-06-18 05:46:31,794 | INFO     | company-ai.api | pid=398 | app started | env='development' name='Omni AI Assistant'
+2026-06-18 05:46:31,794 | INFO     | company-ai.api | pid=398 | app started | env='development' name='Company AI Assistant'
 2026-06-18 06:03:51,140 | INFO     | company-ai.api | pid=398 | request | rid='b591b9d4ea59' method='GET' path='/' status=200 latency_ms=8 ip='192.168.1.111'
 2026-06-18 06:03:51,205 | INFO     | company-ai.api | pid=398 | request | rid='3eb6357a8be7' method='GET' path='/css/main.css' status=304 latency_ms=2 ip='192.168.1.111'
 2026-06-18 06:03:51,207 | INFO     | company-ai.api | pid=398 | request | rid='6f75f0d0e608' method='GET' path='/js/icons.js' status=304 latency_ms=2 ip='192.168.1.111'
@@ -4901,7 +4901,7 @@
 2026-06-18 06:11:57,235 | INFO     | company-ai.api | pid=398 | request | rid='0d0cc4dfb235' method='GET' path='/favicon.ico' status=404 latency_ms=1 ip='192.168.1.111'
 2026-06-18 06:11:58,875 | INFO     | company-ai.api | pid=398 | request | rid='17c88148c5c8' method='GET' path='/api/v1/chat/sessions/16' status=200 latency_ms=16 ip='192.168.1.111'
 2026-06-18 06:13:36,744 | INFO     | company-ai.api | pid=398 | app stopped
-2026-06-18 06:13:41,157 | INFO     | company-ai.api | pid=1986 | app started | env='development' name='Omni AI Assistant'
+2026-06-18 06:13:41,157 | INFO     | company-ai.api | pid=1986 | app started | env='development' name='Company AI Assistant'
 2026-06-18 06:13:59,564 | INFO     | company-ai.api | pid=1986 | request | rid='af9b7e55e153' method='GET' path='/' status=304 latency_ms=10 ip='10.212.134.104'
 2026-06-18 06:13:59,696 | INFO     | company-ai.api | pid=1986 | request | rid='cc2574cff53a' method='GET' path='/css/main.css' status=304 latency_ms=1 ip='10.212.134.104'
 2026-06-18 06:14:00,159 | INFO     | company-ai.api | pid=1986 | request | rid='aaa6eb71ad61' method='GET' path='/css/auth.css' status=304 latency_ms=7 ip='10.212.134.104'
@@ -5491,7 +5491,7 @@
 2026-06-18 09:35:39,183 | INFO     | company-ai.api | pid=1986 | request | rid='53f3f560c4ef' method='POST' path='/api/v1/admin/users' status=201 latency_ms=23 ip='192.168.1.111'
 2026-06-18 09:35:39,257 | INFO     | company-ai.api | pid=1986 | request | rid='1eafcbbd00ab' method='GET' path='/api/v1/admin/users' status=200 latency_ms=28 ip='192.168.1.111'
 2026-06-19 04:50:34,531 | INFO     | company-ai.api | pid=1986 | app stopped
-2026-06-19 04:50:38,546 | INFO     | company-ai.api | pid=3606 | app started | env='development' name='Omni AI Assistant'
+2026-06-19 04:50:38,546 | INFO     | company-ai.api | pid=3606 | app started | env='development' name='Company AI Assistant'
 2026-06-19 04:50:41,146 | INFO     | company-ai.api | pid=3606 | request | rid='d7a93b29ecc2' method='GET' path='/admin.html' status=304 latency_ms=7 ip='10.212.134.103'
 2026-06-19 04:50:41,256 | INFO     | company-ai.api | pid=3606 | request | rid='010fe8ec5d64' method='GET' path='/css/main.css' status=304 latency_ms=1 ip='10.212.134.103'
 2026-06-19 04:50:41,351 | INFO     | company-ai.api | pid=3606 | request | rid='d20b81b3372d' method='GET' path='/css/admin.css' status=304 latency_ms=8 ip='10.212.134.103'

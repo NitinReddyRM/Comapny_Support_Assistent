@@ -127,7 +127,7 @@ def build_system_prompt(
     department_name: str,
     context: str,
     company_name: str = "Company",
-    assistant_name: str = "Omni AI Assistant",
+    assistant_name: str = "Company AI Assistant",
 ) -> str:
     """Backward-compatible single-department system prompt."""
     return SINGLE_DEPT_TEMPLATE.format(
@@ -142,7 +142,7 @@ def build_multi_dept_system_prompt(
     department_names: list[str],
     context: str,
     company_name: str = "Company",
-    assistant_name: str = "Omni AI Assistant",
+    assistant_name: str = "Company AI Assistant",
 ) -> str:
     """Multi-department system prompt used when a CrossAdmin queries
     across more than one department in a single session."""
