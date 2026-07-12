@@ -38,3 +38,6 @@ aiofiles
 O365
 bleach
 flashrank   
+
+boto3
+botocore
