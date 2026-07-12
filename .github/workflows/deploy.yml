@@ -33,7 +33,7 @@ jobs:
             docker rm   policy-ai || true
             docker rmi  policy-ai-app || true
 
-            docker build --no-cache -t policy-ai-app .
+            docker build -t policy-ai-app .
 
             docker run -d \
               --name policy-ai \
